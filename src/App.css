@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.border-dark {
+  border-color: #000000!important;
+}
+
+@media screen and (min-width: 780px) {
+  .text-columns {
+    column-count: 2
+  }
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #FFF;
+}
