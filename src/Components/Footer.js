@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-const Footer = () => {
+const Footer = ({ setCurrentPage }) => {
 
   return(
     <footer className="d-flex flex-column flex-md-row align-items-center justify-content-evenly w-100 bg-success p-3 text-center">
@@ -11,7 +11,7 @@ const Footer = () => {
         (559) 273-5007
       </div>
       <div className="text-light">
-        <Link to={"contact"}  className="btn btn-success">luceroweb@gmail.com</Link>
+        <Link to={"contact"}  className="btn btn-success" onClick={() => setCurrentPage('Contact')}>luceroweb@gmail.com</Link>
       </div>
     </footer>
   )

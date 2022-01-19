@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Nav from './Components/Nav';
@@ -8,10 +9,9 @@ import Portfolio from './Components/Portfolio';
 import Proficiencies from './Components/Proficiencies';
 import Education from './Components/Education';
 import Contact from './Components/Contact';
-import { useState } from 'react';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('/');
+  const [currentPage, setCurrentPage] = useState('Profile');
 
   return (
     <div className="App">
@@ -23,8 +23,8 @@ function App() {
             <div className="col-lg-4">
               
               <Nav
-                currentPage
-                setCurrentPage
+                currentPage={currentPage}
+                setCurrentPage={setCurrentPage}
               />
 
             </div>
@@ -34,22 +34,22 @@ function App() {
               <div className="bg-white m-3 p-3 border rounded-3 clearfix">
 
                   <Routes>
-                    <Route exact path='/' element={
+                    <Route exact activeClassName="active" path='/' element={
                       <Home />
                     } />
-                    <Route exact path='/career-development' element={
+                    <Route exact activeClassName="active" path='/career-development' element={
                       <CareerDevelopment />
                     } />
-                    <Route exact path='/portfolio' element={
+                    <Route exact activeClassName="active" path='/portfolio' element={
                       <Portfolio />
                     } />
-                    <Route exact path='/proficiencies' element={
+                    <Route exact activeClassName="active" path='/proficiencies' element={
                       <Proficiencies />
                     } />
-                    <Route exact path='/education' element={
+                    <Route exact activeClassName="active" path='/education' element={
                       <Education />
                     } />
-                    <Route exact path='/contact' element={
+                    <Route exact activeClassName="active" path='/contact' element={
                       <Contact />
                     } />
                   </Routes>
@@ -59,7 +59,9 @@ function App() {
             </div>
           </div>
 
-          <Footer />
+          <Footer
+            setCurrentPage={setCurrentPage}
+          />
 
         </div>
       </HashRouter>
