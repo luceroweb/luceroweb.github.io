@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
 
@@ -10,7 +11,7 @@ const Footer = () => {
         (559) 273-5007
       </div>
       <div className="text-light">
-        <a href="contact.html"  className="btn btn-success">luceroweb@gmail.com</a>
+        <Link to={"contact"}  className="btn btn-success">luceroweb@gmail.com</Link>
       </div>
     </footer>
   )
