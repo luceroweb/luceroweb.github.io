@@ -1,15 +1,12 @@
-body {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-}
-
-header {
-  background-color: #355e3b;
-  color: white;
-  padding: 1em;
+:root {
+  --bs-primary: #355e3b;
 }
 
 main {
-  margin: 1em;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+img {
+  max-width: 100%;
 }
