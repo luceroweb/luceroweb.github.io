@@ -24,27 +24,26 @@ const Home = () => {
           <Link to="/contact" className="m-2">
             <Button>Contact</Button>
           </Link>
-          <Link
-            to={{
-              pathname:
-                "https://drive.google.com/file/d/1vtnCZfCtNnSOT1nFXd_WWVPRjaHRHmDS/view",
-            }}
+          <a
+            href="https://drive.google.com/file/d/1vtnCZfCtNnSOT1nFXd_WWVPRjaHRHmDS/view?usp=share_link"
+            rel="noreferrer"
             target="_blank"
             className="m-2"
           >
             <Button variant="outline-secondary">
               Resume <i className="bi bi-filetype-pdf"></i>
             </Button>
-          </Link>
-          <Link
-            to={{ pathname: "https://github.com/luceroweb" }}
+          </a>
+          <a
+            href="https://github.com/luceroweb"
+            rel="noreferrer"
             target="_blank"
             className="m-2"
           >
             <Button variant="outline-secondary">
               GitHub <i className="bi bi-github"></i>
             </Button>
-          </Link>
+          </a>
         </div>
       </Col>
     </Row>
