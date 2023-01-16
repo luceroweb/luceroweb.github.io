@@ -5,8 +5,8 @@ const Experience = () => {
   return (
     <Row>
       <Col>
-        <h1 className="fs-5">Experience AKA Career Development</h1>
-        <h2 className="fs-6">
+        <h1 className="fs-4">Experience AKA Career Development</h1>
+        <h2 className="fs-5">
           AlphaWorks/Bitwise | <strong>Apprentice Lead (Manager)</strong>
         </h2>
         <p>
@@ -27,7 +27,7 @@ const Experience = () => {
             <strong>HTML5/CSS/JS, Agile Methodology, gitHub, debugging</strong>
           </li>
         </ul>
-        <h2 className="fs-6">
+        <h2 className="fs-5">
           Content.ad | <strong>Front End Web Developer</strong>
         </h2>
         <p>
@@ -54,7 +54,7 @@ const Experience = () => {
             Plugin
           </li>
         </ul>
-        <h2 className="fs-6">
+        <h2 className="fs-5">
           Experian Consumer Direct | <strong>Front End Web Developer</strong>
         </h2>
         <p>
@@ -94,6 +94,106 @@ const Experience = () => {
           <li>
             <strong>Bootstrap Expert</strong> for{" "}
             <strong>USAA's Angular Credit Check products</strong>
+          </li>
+        </ul>
+        <h2 className="fs-5">
+          Yamaha | <strong>Front End Web Developer Lead</strong>
+        </h2>
+        <p>
+          <small>Buena Park, CA: 2009 – 2012.</small>
+        </p>
+        <p>
+          Developed promo sites using <strong>HTML/CSS/jQuery</strong>
+        </p>
+        <ul>
+          <li>
+            Developed live & pre-recorded{" "}
+            <strong>video and slideshow galleries</strong>
+          </li>
+          <li>
+            Aided{" "}
+            <a href="https://usa.yamaha.com" target="_blank">
+              Yamaha Corporation of America
+            </a>{" "}
+            redesign/migration
+          </li>
+          <li>
+            Direct internal client communication to{" "}
+            <strong>manage dev team in India</strong>
+          </li>
+        </ul>
+        <h2 className="fs-5">
+          e:Design, inc. | <strong>Web Architect</strong>
+        </h2>
+        <p>
+          <small>Fresno, CA: 2007 – 2009</small>
+        </p>
+        <p>
+          Tight knit print and web family; building projects for education,
+          business and nonprofit.
+        </p>
+        <ul>
+          <li>
+            Created, debugged, maintained exciting <strong>WordPress</strong>{" "}
+            sites using <strong>PHP/MySQL/HTML/CSS/jQuery</strong>
+          </li>
+          <li>Trained clients remotely on use of WordPress</li>
+        </ul>
+        <h2 className="fs-5">
+          NetPas, inc. | <strong>Web Designer</strong>
+        </h2>
+        <p>
+          <small>Fresno, CA: 2005 – 2007</small>
+        </p>
+        <ul>
+          <li>
+            <strong>Sole web developer</strong> for company and direct client
+            communication: nonprofits, higher education, agriculture and small
+            businesses
+          </li>
+          <li>
+            Extended <strong>ASP/SQL</strong> CMS: reporting, case & customer
+            management
+          </li>
+          <li>
+            <strong>Collaborated with sales on concept/design</strong> of client
+            projects & print
+          </li>
+        </ul>
+        <h2 className="fs-5">
+          Lucero Web Design | <strong>Owner</strong>
+        </h2>
+        <p>
+          <small>Fresno, CA: 2004 – 2005</small>
+        </p>
+        <ul>
+          <li>
+            Owned/operated full service design & maintenance: nonprofit, higher
+            education and small businesses
+          </li>
+          <li>Managed consultants</li>
+          <li>
+            <strong>CSU, Fresno: PHP/MySQL</strong> phone directory, class
+            requirements site
+          </li>
+        </ul>
+        <h2 className="fs-5">
+          CSU, Fresno | <strong>Assistant Web Manager</strong>
+        </h2>
+        <p>
+          <small>Fresno, CA: 2001 – 2004</small>
+        </p>
+        <ul>
+          <li>
+            Design/manage/maintain integral university sites:{" "}
+            <strong>Web accessibility guidelines, primary site</strong>, Fresno
+            State News, University Journal,{" "}
+            <strong>Phone Directory, Site Index</strong>, and directed contact
+            page inquiries
+          </li>
+          <li>
+            Trained students/faculty/administrators on policy, templates, and
+            guidelines
           </li>
         </ul>
       </Col>
