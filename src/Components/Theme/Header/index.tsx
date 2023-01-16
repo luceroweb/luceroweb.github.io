@@ -27,6 +27,9 @@ const Header = () => {
               <Link to="/experience" className="nav-link">
                 Experience
               </Link>
+              <Link to="/portfolio" className="nav-link">
+                Portfolio
+              </Link>
               <Link to="/proficiencies" className="nav-link">
                 Proficiencies
               </Link>
