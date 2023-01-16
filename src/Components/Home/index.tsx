@@ -14,11 +14,10 @@ const Home = () => {
           22 years moving user focused businesses forward
         </h1>
         <p>
-          For the past 22 years, I've enjoyed building collaborative team
-          projects that put your users first. If your user thinks "what's this
-          for?" then the job isn't done yet. Happy users come back to your
-          business again and again; happy teams work harder, faster, and take
-          pride in their work. Invite me to do this for your business.
+          I enjoy building collaborative team projects, because happy teams work
+          harder, faster, and take pride in their work. Customers will see the
+          work and say "That's just what I wanted". Happy customers make happy
+          clients, who come back again and again. Invite me to do this for you.
         </p>
         <div className="text-center">
           <Link to="/contact" className="m-2">

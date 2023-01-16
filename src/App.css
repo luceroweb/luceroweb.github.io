@@ -21,3 +21,7 @@ main {
 strong {
   color: var(--bs-primary);
 }
+
+header strong {
+  color: white;
+}
