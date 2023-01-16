@@ -18,7 +18,10 @@ const Proficiencies = () => {
         Web Accessibility
       </Col>
       <Col sm={6} lg={3}>
-        JS, React & Native w/ TypeScript
+        JS, React & Native, TypeScript
+      </Col>
+      <Col sm={6} lg={3}>
+        APIs, Fetch, Axios
       </Col>
       <Col sm={6} lg={3}>
         Node, npm/yarn
