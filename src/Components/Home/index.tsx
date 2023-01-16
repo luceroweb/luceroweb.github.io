@@ -27,7 +27,7 @@ const Home = () => {
           <Link
             to={{
               pathname:
-                "https://drive.google.com/file/d/1vtnCZfCtNnSOT1nFXd_WWVPRjaHRHmDS/view?usp=share_link",
+                "https://drive.google.com/file/d/1vtnCZfCtNnSOT1nFXd_WWVPRjaHRHmDS/view",
             }}
             target="_blank"
             className="m-2"

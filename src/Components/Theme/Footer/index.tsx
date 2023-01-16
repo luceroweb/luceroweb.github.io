@@ -23,7 +23,7 @@ const Footer = () => {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
-                href="https://drive.google.com/file/d/1vtnCZfCtNnSOT1nFXd_WWVPRjaHRHmDS/view?usp=share_link"
+                href="https://drive.google.com/file/d/1vtnCZfCtNnSOT1nFXd_WWVPRjaHRHmDS/view"
                 target="_blank"
               >
                 <i className="bi bi-filetype-pdf"></i> Resume
