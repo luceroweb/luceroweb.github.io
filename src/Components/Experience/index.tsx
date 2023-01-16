@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import face from "../../images/face.jpg";
 
 const Experience = () => {
   return (
@@ -65,11 +64,19 @@ const Experience = () => {
           Helped build{" "}
           <strong>
             Experian's{" "}
-            <a href="https://FreeCreditReport.com" target="_blank">
+            <a
+              href="https://FreeCreditReport.com"
+              rel="noreferrer"
+              target="_blank"
+            >
               FreeCreditReport.com
             </a>
             /
-            <a href="https://FreeCreditScore.com" target="_blank">
+            <a
+              href="https://FreeCreditScore.com"
+              rel="noreferrer"
+              target="_blank"
+            >
               FreeCreditScore.com
             </a>
           </strong>{" "}

@@ -25,7 +25,10 @@ const Home = () => {
             <Button>Contact</Button>
           </Link>
           <Link
-            to="https://drive.google.com/file/d/1vtnCZfCtNnSOT1nFXd_WWVPRjaHRHmDS/view?usp=share_link"
+            to={{
+              pathname:
+                "https://drive.google.com/file/d/1vtnCZfCtNnSOT1nFXd_WWVPRjaHRHmDS/view?usp=share_link",
+            }}
             target="_blank"
             className="m-2"
           >
@@ -34,7 +37,7 @@ const Home = () => {
             </Button>
           </Link>
           <Link
-            to="https://github.com/luceroweb"
+            to={{ pathname: "https://github.com/luceroweb" }}
             target="_blank"
             className="m-2"
           >

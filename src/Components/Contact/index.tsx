@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import face from "../../images/face.jpg";
 
 const Header = () => {
   return (
