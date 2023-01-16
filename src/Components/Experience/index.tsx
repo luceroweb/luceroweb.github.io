@@ -112,7 +112,7 @@ const Experience = () => {
           </li>
           <li>
             Aided{" "}
-            <a href="https://usa.yamaha.com" target="_blank">
+            <a href="https://usa.yamaha.com" rel="noreferrer" target="_blank">
               Yamaha Corporation of America
             </a>{" "}
             redesign/migration
