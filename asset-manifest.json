@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ee89f0c.css",
-    "main.js": "/static/js/main.d26fee12.js",
+    "main.css": "/static/css/main.7d3f4451.css",
+    "main.js": "/static/js/main.525d52cf.js",
     "static/js/787.f2e25fa4.chunk.js": "/static/js/787.f2e25fa4.chunk.js",
     "static/media/karot1login.png": "/static/media/karot1login.7d1bf88596f3edb222db.png",
     "static/media/hauntedhouse1introdesktop.png": "/static/media/hauntedhouse1introdesktop.4670b3ddbc20e9ff1d5b.png",
@@ -16,12 +16,12 @@
     "static/media/remotelive1.jpg": "/static/media/remotelive1.284617d2f95a59d62352.jpg",
     "static/media/face.jpg": "/static/media/face.a04258c4dc4f0306c486.jpg",
     "index.html": "/index.html",
-    "main.7ee89f0c.css.map": "/static/css/main.7ee89f0c.css.map",
-    "main.d26fee12.js.map": "/static/js/main.d26fee12.js.map",
+    "main.7d3f4451.css.map": "/static/css/main.7d3f4451.css.map",
+    "main.525d52cf.js.map": "/static/js/main.525d52cf.js.map",
     "787.f2e25fa4.chunk.js.map": "/static/js/787.f2e25fa4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ee89f0c.css",
-    "static/js/main.d26fee12.js"
+    "static/css/main.7d3f4451.css",
+    "static/js/main.525d52cf.js"
   ]
 }
