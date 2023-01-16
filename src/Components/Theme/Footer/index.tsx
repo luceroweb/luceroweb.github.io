@@ -30,7 +30,7 @@ const Footer = () => {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="https://github.com/luceroweb">
+              <Nav.Link href="https://github.com/luceroweb" target="_blank">
                 <i className="bi bi-github"></i> GitHub
               </Nav.Link>
             </Nav.Item>
