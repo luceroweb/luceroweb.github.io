@@ -1,23 +1,18 @@
 {
   "files": {
-    "app.js": "/static/js/app.3f095e5c.chunk.js",
-    "app.js.map": "/static/js/app.3f095e5c.chunk.js.map",
-    "runtime~app.js": "/static/js/runtime~app.2e9f1821.js",
-    "runtime~app.js.map": "/static/js/runtime~app.2e9f1821.js.map",
-    "static/js/2.f491796c.chunk.js": "/static/js/2.f491796c.chunk.js",
-    "static/js/2.f491796c.chunk.js.map": "/static/js/2.f491796c.chunk.js.map",
-    "favicon-16.png": "/favicon-16.png",
-    "favicon-32.png": "/favicon-32.png",
-    "favicon.ico": "/favicon.ico",
+    "main.css": "/static/css/main.7ee89f0c.css",
+    "main.js": "/static/js/main.cb880f64.js",
+    "static/js/787.f2e25fa4.chunk.js": "/static/js/787.f2e25fa4.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/face.jpg": "/static/media/face.a04258c4dc4f0306c486.jpg",
     "index.html": "/index.html",
-    "manifest.json": "/manifest.json",
-    "serve.json": "/serve.json",
-    "static/js/2.f491796c.chunk.js.LICENSE.txt": "/static/js/2.f491796c.chunk.js.LICENSE.txt",
-    "static/media/juan.jpg": "/static/media/juan.cf13a85a.jpg"
+    "main.7ee89f0c.css.map": "/static/css/main.7ee89f0c.css.map",
+    "main.cb880f64.js.map": "/static/js/main.cb880f64.js.map",
+    "787.f2e25fa4.chunk.js.map": "/static/js/787.f2e25fa4.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime~app.2e9f1821.js",
-    "static/js/2.f491796c.chunk.js",
-    "static/js/app.3f095e5c.chunk.js"
+    "static/css/main.7ee89f0c.css",
+    "static/js/main.cb880f64.js"
   ]
 }
