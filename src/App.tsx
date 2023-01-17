@@ -6,6 +6,7 @@ import Footer from "./Components/Theme/Footer";
 import Home from "./Components/Home";
 import Experience from "./Components/Experience";
 import Portfolio from "./Components/Portfolio";
+import RemoteLive from "./Components/Portfolio/RemoteLive";
 import Contact from "./Components/Contact";
 import Proficiencies from "./Components/Proficiencies";
 import { Container } from "react-bootstrap";
@@ -19,7 +20,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/proficiencies" element={<Proficiencies />} />
-          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/portfolio/remotelive" element={<RemoteLive />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
