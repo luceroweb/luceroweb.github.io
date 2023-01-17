@@ -138,7 +138,9 @@ const Portfolio = () => {
       </Col>
       <Col className="mb-5">
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={usb} alt="United Security Bank" />
+          <Link to="/portfolio/unitedsecuritybank">
+            <Card.Img variant="top" src={usb} alt="United Security Bank" />
+          </Link>
           <Card.Body>
             <Card.Title>United Security Bank</Card.Title>
             <Card.Text>WordPress marketing site</Card.Text>
@@ -170,11 +172,13 @@ const Portfolio = () => {
       </Col>
       <Col className="mb-5">
         <Card style={{ width: "18rem" }}>
-          <Card.Img
-            variant="top"
-            src={safe}
-            alt="SAFE: Straight Advocates for Equality"
-          />
+          <Link to="/portfolio/straightadvocatesforequality">
+            <Card.Img
+              variant="top"
+              src={safe}
+              alt="SAFE: Straight Advocates for Equality"
+            />
+          </Link>
           <Card.Body>
             <Card.Title>SAFE:</Card.Title>
             <Card.Text>Straight Advocates for Equality</Card.Text>
@@ -188,11 +192,13 @@ const Portfolio = () => {
       </Col>
       <Col className="mb-5">
         <Card style={{ width: "18rem" }}>
-          <Card.Img
-            variant="top"
-            src={meetinthemiddle}
-            alt="Meet in the Middle 4 Equality"
-          />
+          <Link to="/portfolio/meetinthemiddle4equality">
+            <Card.Img
+              variant="top"
+              src={meetinthemiddle}
+              alt="Meet in the Middle 4 Equality"
+            />
+          </Link>
           <Card.Body>
             <Card.Title>Meet in the Middle 4 Equality</Card.Title>
           </Card.Body>

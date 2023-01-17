@@ -25,3 +25,19 @@ strong {
 header strong {
   color: white;
 }
+
+.timeline section {
+  border-left: solid 5px var(--bs-primary);
+  padding-bottom: 1em;
+  background-color: rgb(251, 247, 255);
+}
+
+.timeline h2 {
+  background-color: var(--bs-primary);
+  color: white;
+}
+
+.timeline section>* {
+
+  padding-left: 2em;
+}
