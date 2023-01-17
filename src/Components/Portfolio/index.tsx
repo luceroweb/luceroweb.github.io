@@ -1,11 +1,11 @@
 import React from "react";
 import { Row, Col, Card, Button } from "react-bootstrap";
-import remotelive from "./RemoteLive/remotelive1.jpg";
-import aventage from "./Aventage/aventage1.jpg";
-import usb from "./UnitedSecurityBank/usbfront.jpg";
-import smittcamp from "./Smittcamp/smittcamp1.jpg";
-import safe from "./StraightAdvocatesForEquality/layout2open.jpg";
-import meetinthemiddle from "./MeetInTheMiddle4Equality/meetinthemiddle1.jpg";
+import remotelive from "./RemoteLive/remotelive_thumb.jpg";
+import aventage from "./Aventage/aventage_thumb.jpg";
+import usb from "./UnitedSecurityBank/usb_thumb.jpg";
+import smittcamp from "./Smittcamp/smittcamp_thumb.jpg";
+import safe from "./StraightAdvocatesForEquality/layout_thumb.jpg";
+import meetinthemiddle from "./MeetInTheMiddle4Equality/meetinthemiddle_thumb.jpg";
 import karot from "./Karot/karot1login.png";
 import triviachill from "./Trivia&Chill/trivia&chill0titledesktop.png";
 import hauntedhouse from "./HauntedHouse/hauntedhouse1introdesktop.png";
@@ -102,7 +102,7 @@ const Portfolio = () => {
           <Card.Img variant="top" src={remotelive} alt="RemoteLive" />
           <Card.Body>
             <Card.Title>RemoteLive</Card.Title>
-            <Card.Text>Yamaha Disklavier Technology</Card.Text>
+            <Card.Text>Your Disklavier plays along</Card.Text>
           </Card.Body>
         </Card>
       </Col>
