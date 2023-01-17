@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <Row>
       <Col sm={6} md={4} className="mb-3 mb-md-0 text-center">
-        <img src={face} alt="" className="profile" />
+        <img src={face} alt="" className="profile rounded" />
       </Col>
       <Col sm={6} md={8}>
         <h1 className="fs-5">
