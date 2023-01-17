@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./index.css";
+import ScrollToTop from "./Components/ScrollToTop";
 import App from "./App";
 import { HashRouter as Router } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
@@ -13,6 +14,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Router>
+      <ScrollToTop />
       <App />
     </Router>
   </React.StrictMode>
