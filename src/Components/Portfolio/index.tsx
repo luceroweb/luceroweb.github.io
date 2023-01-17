@@ -122,11 +122,18 @@ const Portfolio = () => {
       </Col>
       <Col className="mb-5">
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={aventage} alt="AVENTAGE" />
+          <Link to="/portfolio/aventage">
+            <Card.Img variant="top" src={aventage} alt="AVENTAGE" />
+          </Link>
           <Card.Body>
             <Card.Title>AVENTAGE</Card.Title>
             <Card.Text>Yamaha Receivers</Card.Text>
           </Card.Body>
+          <Card.Footer>
+            <Link to="/portfolio/aventage">
+              <Button>Details</Button>
+            </Link>
+          </Card.Footer>
         </Card>
       </Col>
       <Col className="mb-5">
