@@ -179,6 +179,11 @@ const Portfolio = () => {
             <Card.Title>SAFE:</Card.Title>
             <Card.Text>Straight Advocates for Equality</Card.Text>
           </Card.Body>
+          <Card.Footer>
+            <Link to="/portfolio/straightadvocatesforequality">
+              <Button>Details</Button>
+            </Link>
+          </Card.Footer>
         </Card>
       </Col>
       <Col className="mb-5">

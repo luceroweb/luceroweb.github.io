@@ -13,6 +13,7 @@ import Smittcamp from "./Components/Portfolio/Smittcamp";
 import Contact from "./Components/Contact";
 import Proficiencies from "./Components/Proficiencies";
 import { Container } from "react-bootstrap";
+import SAFE from "./Components/Portfolio/StraightAdvocatesForEquality";
 
 function App() {
   return (
@@ -29,6 +30,11 @@ function App() {
           <Route
             path="/portfolio/unitedsecuritybank"
             element={<UnitedSecurityBank />}
+          />
+          <Route path="/portfolio/smittcamp" element={<Smittcamp />} />
+          <Route
+            path="/portfolio/straightadvocatesforequality"
+            element={<SAFE />}
           />
           <Route path="/contact" element={<Contact />} />
         </Routes>
