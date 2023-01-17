@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Carousel, Button, Image } from "react-bootstrap";
+import { Row, Col, Carousel } from "react-bootstrap";
 import remotelive1 from "./remotelive1.jpg";
 import remotelive2 from "./remotelive2.jpg";
 import remotelive3 from "./remotelive3.jpg";
@@ -18,8 +18,8 @@ const RemoteLive = () => {
           <strong>Technologies:</strong> ASP, .NET environment, HTML, CSS,
           jQuery
         </p>
-        <div style={{ maxWidth: "500px" }} className="mb-3">
-          <Carousel fade variant="dark">
+        <div style={{ maxWidth: "700px" }} className="mb-3">
+          <Carousel fade variant="dark" className="mb-3">
             <Carousel.Item>
               <img className="d-block w-100" src={remotelive1} alt="" />
             </Carousel.Item>
@@ -30,6 +30,20 @@ const RemoteLive = () => {
               <img className="d-block w-100" src={remotelive4} alt="" />
             </Carousel.Item>
           </Carousel>
+          <p>
+            <strong>Side 1:</strong> RemoteLive upcoming event page with promo
+            poster, RemoteLive twitter feed, and upcoming events calendar.
+          </p>
+          <p>
+            <strong>Slide 2:</strong> RemoteLive upcoming event page with event
+            banner, rich text promo instead of a poster, RemoteLive twitter
+            feed, and upcoming events calendar.
+          </p>
+          <p>
+            <strong>Slide 3:</strong> An end slide showing the event banner
+            promotion and a rich text message thanking the viewer for watching
+            the performance.
+          </p>
         </div>
         <p>
           The first iteration of a simple yet feature-rich page to display the
@@ -39,7 +53,7 @@ const RemoteLive = () => {
           event) and{" "}
           <a
             href="https://www.yamaha.com/yasi/multimedia.html?tab=live"
-            rel="norefferer"
+            rel="noreferrer"
             target="_blank"
           >
             Yamaha Artist Services, Inc.
@@ -73,9 +87,14 @@ const RemoteLive = () => {
           to enjoy live performances reproduced in synch with our streaming
           video to the Yamaha Disklavier in their own living room.
         </p>
-        <div style={{ maxWidth: "500px" }} className="mb-3">
-          <img className="d-block w-100" src={remotelive2} alt="" />
-        </div>
+        <figure style={{ maxWidth: "700px" }} className="figure mb-3">
+          <img className="figure-img d-block w-100" src={remotelive2} alt="" />
+          <figcaption className="figure-caption">
+            An example of a RemoteLive performance from the receiving Yamaha
+            Grand Piano as it reproduces the live event in sync with the
+            RemoteLive video feed.
+          </figcaption>
+        </figure>
         <h3>Challenges</h3>
         <ul>
           <li>
