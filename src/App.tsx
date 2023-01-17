@@ -8,6 +8,7 @@ import Experience from "./Components/Experience";
 import Portfolio from "./Components/Portfolio";
 import RemoteLive from "./Components/Portfolio/RemoteLive";
 import Aventage from "./Components/Portfolio/Aventage";
+import UnitedSecurityBank from "./Components/Portfolio/UnitedSecurityBank";
 import Contact from "./Components/Contact";
 import Proficiencies from "./Components/Proficiencies";
 import { Container } from "react-bootstrap";
@@ -24,6 +25,10 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/portfolio/remotelive" element={<RemoteLive />} />
           <Route path="/portfolio/aventage" element={<Aventage />} />
+          <Route
+            path="/portfolio/unitedsecuritybank"
+            element={<UnitedSecurityBank />}
+          />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>

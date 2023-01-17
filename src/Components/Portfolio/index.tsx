@@ -143,6 +143,11 @@ const Portfolio = () => {
             <Card.Title>United Security Bank</Card.Title>
             <Card.Text>WordPress marketing site</Card.Text>
           </Card.Body>
+          <Card.Footer>
+            <Link to="/portfolio/unitedsecuritybank">
+              <Button>Details</Button>
+            </Link>
+          </Card.Footer>
         </Card>
       </Col>
       <Col className="mb-5">
