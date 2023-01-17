@@ -7,13 +7,13 @@ const Header = () => {
     <header className="mb-3">
       <Navbar bg="success" variant="dark" fixed="top" expand="md">
         <Container>
-          <Navbar.Brand href="#home" className="fs-4">
-            <strong>Juan</strong> Lucero
-          </Navbar.Brand>
-          <Navbar.Brand>
-            <small className="fs-6 fw-bold d-none d-sm-block">
-              SENIOR WEB DEVELOPER
-            </small>
+          <Link to="/" className="text-decoration-none">
+            <Navbar.Brand>
+              <strong>Juan</strong> Lucero
+            </Navbar.Brand>
+          </Link>
+          <Navbar.Brand className="fw-light d-none d-sm-block">
+            senior web dev
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse
@@ -21,9 +21,6 @@ const Header = () => {
             className="justify-content-end"
           >
             <Nav className="align-items-end">
-              <Link to="/" className="nav-link">
-                Home
-              </Link>
               <Link to="/experience" className="nav-link">
                 Experience
               </Link>
