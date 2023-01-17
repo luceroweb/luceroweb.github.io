@@ -28,20 +28,26 @@ const UnitedSecurityBank = () => {
             </Carousel.Item>
           </Carousel>
           <p>
-            <strong>Side 1:</strong> United Security Bank's CMS included modules
-            on their home page for the various portions of their web site. Each
-            area was fully editable and customizable by the client.
+            <small>
+              <strong>Side 1:</strong> United Security Bank's CMS included
+              modules on their home page for the various portions of their web
+              site. Each area was fully editable and customizable by the client.
+            </small>
           </p>
           <p>
-            <strong>Slide 2:</strong> United Security Bank could easily add or
-            modify article pages for various sections of their site. Custom
-            fonts and layouts where aromatically added by the style sheet and JS
-            files on page load.
+            <small>
+              <strong>Slide 2:</strong> United Security Bank could easily add or
+              modify article pages for various sections of their site. Custom
+              fonts and layouts where aromatically added by the style sheet and
+              JS files on page load.
+            </small>
           </p>
           <p>
-            <strong>Slide 3:</strong> Some templates on the US Bank site
-            included options to add rich features like pre-styled tabs in order
-            to simplify site navigation and information structure.
+            <small>
+              <strong>Slide 3:</strong> Some templates on the US Bank site
+              included options to add rich features like pre-styled tabs in
+              order to simplify site navigation and information structure.
+            </small>
           </p>
         </div>
         <p>

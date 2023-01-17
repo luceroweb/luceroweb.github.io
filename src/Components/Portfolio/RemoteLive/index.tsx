@@ -31,18 +31,24 @@ const RemoteLive = () => {
             </Carousel.Item>
           </Carousel>
           <p>
-            <strong>Side 1:</strong> RemoteLive upcoming event page with promo
-            poster, RemoteLive twitter feed, and upcoming events calendar.
+            <small>
+              <strong>Side 1:</strong> RemoteLive upcoming event page with promo
+              poster, RemoteLive twitter feed, and upcoming events calendar.
+            </small>
           </p>
           <p>
-            <strong>Slide 2:</strong> RemoteLive upcoming event page with event
-            banner, rich text promo instead of a poster, RemoteLive twitter
-            feed, and upcoming events calendar.
+            <small>
+              <strong>Slide 2:</strong> RemoteLive upcoming event page with
+              event banner, rich text promo instead of a poster, RemoteLive
+              twitter feed, and upcoming events calendar.
+            </small>
           </p>
           <p>
-            <strong>Slide 3:</strong> An end slide showing the event banner
-            promotion and a rich text message thanking the viewer for watching
-            the performance.
+            <small>
+              <strong>Slide 3:</strong> An end slide showing the event banner
+              promotion and a rich text message thanking the viewer for watching
+              the performance.
+            </small>
           </p>
         </div>
         <p>

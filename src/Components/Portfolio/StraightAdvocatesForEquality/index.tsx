@@ -33,7 +33,7 @@ const SAFE = () => {
           </p>
           <p>
             <small>
-              <strong>Slides 2:</strong> The dynamic animated and fully
+              <strong>Slide 2:</strong> The dynamic animated and fully
               customizable top menu allows the client to manage their site
               structure over time.
             </small>

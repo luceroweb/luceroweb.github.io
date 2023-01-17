@@ -24,15 +24,19 @@ const Aventage = () => {
             </Carousel.Item>
           </Carousel>
           <p>
-            <strong>Side 1:</strong> AVENTAGE Receiver family of products
-            landing page featuring a poster with links to all the products in
-            the family, and an embedded HTML5 video introduction to the product
-            line. At the end of the video, the poster reappears.
+            <small>
+              <strong>Side 1:</strong> AVENTAGE Receiver family of products
+              landing page featuring a poster with links to all the products in
+              the family, and an embedded HTML5 video introduction to the
+              product line. At the end of the video, the poster reappears.
+            </small>
           </p>
           <p>
-            <strong>Slide 2:</strong> Lower on the AVENTAGE product family page
-            are 4 rich tabs that include links to full size feature images that
-            appear in a lightbox.
+            <small>
+              <strong>Slide 2:</strong> Lower on the AVENTAGE product family
+              page are 4 rich tabs that include links to full size feature
+              images that appear in a lightbox.
+            </small>
           </p>
         </div>
         <p>
