@@ -196,6 +196,11 @@ const Portfolio = () => {
           <Card.Body>
             <Card.Title>Meet in the Middle 4 Equality</Card.Title>
           </Card.Body>
+          <Card.Footer>
+            <Link to="/portfolio/meetinthemiddle4equality">
+              <Button>Details</Button>
+            </Link>
+          </Card.Footer>
         </Card>
       </Col>
     </Row>

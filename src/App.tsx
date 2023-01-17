@@ -10,6 +10,7 @@ import RemoteLive from "./Components/Portfolio/RemoteLive";
 import Aventage from "./Components/Portfolio/Aventage";
 import UnitedSecurityBank from "./Components/Portfolio/UnitedSecurityBank";
 import Smittcamp from "./Components/Portfolio/Smittcamp";
+import MeetInTheMiddle4Equality from "./Components/Portfolio/MeetInTheMiddle4Equality";
 import Contact from "./Components/Contact";
 import Proficiencies from "./Components/Proficiencies";
 import { Container } from "react-bootstrap";
@@ -35,6 +36,10 @@ function App() {
           <Route
             path="/portfolio/straightadvocatesforequality"
             element={<SAFE />}
+          />
+          <Route
+            path="/portfolio/meetinthemiddle4equality"
+            element={<MeetInTheMiddle4Equality />}
           />
           <Route path="/contact" element={<Contact />} />
         </Routes>
