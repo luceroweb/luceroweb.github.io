@@ -9,6 +9,7 @@ import Portfolio from "./Components/Portfolio";
 import RemoteLive from "./Components/Portfolio/RemoteLive";
 import Aventage from "./Components/Portfolio/Aventage";
 import UnitedSecurityBank from "./Components/Portfolio/UnitedSecurityBank";
+import Smittcamp from "./Components/Portfolio/Smittcamp";
 import Contact from "./Components/Contact";
 import Proficiencies from "./Components/Proficiencies";
 import { Container } from "react-bootstrap";

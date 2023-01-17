@@ -161,6 +161,11 @@ const Portfolio = () => {
             <Card.Title>Smittcamp Family:</Card.Title>
             <Card.Text>CSU, Fresno Honors College</Card.Text>
           </Card.Body>
+          <Card.Footer>
+            <Link to="/portfolio/smittcamp">
+              <Button>Details</Button>
+            </Link>
+          </Card.Footer>
         </Card>
       </Col>
       <Col className="mb-5">
