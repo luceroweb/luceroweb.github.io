@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Card, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import remotelive from "./RemoteLive/remotelive_thumb.jpg";
 import aventage from "./Aventage/aventage_thumb.jpg";
 import usb from "./UnitedSecurityBank/usb_thumb.jpg";
@@ -22,6 +23,8 @@ const Portfolio = () => {
           <Card.Body>
             <Card.Title>Karot: Saving Smart.</Card.Title>
             <Card.Text>An envelope savings app</Card.Text>
+          </Card.Body>
+          <Card.Footer>
             <a
               href="https://karot-saving-smart.netlify.app/"
               rel="noreferrer"
@@ -40,7 +43,7 @@ const Portfolio = () => {
                 <i className="bi bi-github"></i> Code
               </Button>
             </a>
-          </Card.Body>
+          </Card.Footer>
         </Card>
       </Col>
       <Col className="mb-5">
@@ -49,6 +52,8 @@ const Portfolio = () => {
           <Card.Body>
             <Card.Title>Trivia & Chill</Card.Title>
             <Card.Text>Movie Trivia Game</Card.Text>
+          </Card.Body>
+          <Card.Footer>
             <a
               href="https://luceroweb.github.io/trivia-and-chill/"
               rel="noreferrer"
@@ -67,7 +72,7 @@ const Portfolio = () => {
                 <i className="bi bi-github"></i> Code
               </Button>
             </a>
-          </Card.Body>
+          </Card.Footer>
         </Card>
       </Col>
       <Col className="mb-5">
@@ -76,6 +81,8 @@ const Portfolio = () => {
           <Card.Body>
             <Card.Title>Haunted House Game</Card.Title>
             <Card.Text>Choose your own adventure game.</Card.Text>
+          </Card.Body>
+          <Card.Footer>
             <a
               href="https://luceroweb.github.io/haunted-house-game"
               rel="noreferrer"
@@ -94,16 +101,23 @@ const Portfolio = () => {
                 <i className="bi bi-github"></i> Code
               </Button>
             </a>
-          </Card.Body>
+          </Card.Footer>
         </Card>
       </Col>
       <Col className="mb-5">
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={remotelive} alt="RemoteLive" />
+          <Link to="/portfolio/remotelive">
+            <Card.Img variant="top" src={remotelive} alt="RemoteLive" />
+          </Link>
           <Card.Body>
             <Card.Title>RemoteLive</Card.Title>
             <Card.Text>Your Disklavier plays along</Card.Text>
           </Card.Body>
+          <Card.Footer>
+            <Link to="/portfolio/remotelive">
+              <Button>Details</Button>
+            </Link>
+          </Card.Footer>
         </Card>
       </Col>
       <Col className="mb-5">
