@@ -18,34 +18,36 @@ import SAFE from "./Components/Portfolio/StraightAdvocatesForEquality";
 
 function App() {
   return (
-    <Container>
-      <Header />
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/proficiencies" element={<Proficiencies />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/portfolio/remotelive" element={<RemoteLive />} />
-          <Route path="/portfolio/aventage" element={<Aventage />} />
-          <Route
-            path="/portfolio/unitedsecuritybank"
-            element={<UnitedSecurityBank />}
-          />
-          <Route path="/portfolio/smittcamp" element={<Smittcamp />} />
-          <Route
-            path="/portfolio/straightadvocatesforequality"
-            element={<SAFE />}
-          />
-          <Route
-            path="/portfolio/meetinthemiddle4equality"
-            element={<MeetInTheMiddle4Equality />}
-          />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </main>
+    <>
+      <Container>
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/proficiencies" element={<Proficiencies />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/portfolio/remotelive" element={<RemoteLive />} />
+            <Route path="/portfolio/aventage" element={<Aventage />} />
+            <Route
+              path="/portfolio/unitedsecuritybank"
+              element={<UnitedSecurityBank />}
+            />
+            <Route path="/portfolio/smittcamp" element={<Smittcamp />} />
+            <Route
+              path="/portfolio/straightadvocatesforequality"
+              element={<SAFE />}
+            />
+            <Route
+              path="/portfolio/meetinthemiddle4equality"
+              element={<MeetInTheMiddle4Equality />}
+            />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+      </Container>
       <Footer />
-    </Container>
+    </>
   );
 }
 

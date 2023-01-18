@@ -4,13 +4,10 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer>
-      <Row className="mt-3">
+    <footer className=" position-fixed bottom-0 left-0 w-100 w-100 bg-light">
+      <Row>
         <Col>
-          <Nav
-            className="justify-content-center position-fixed bottom-0 w-100 bg-light"
-            activeKey="/home"
-          >
+          <Nav className="justify-content-center" activeKey="/home">
             <Nav.Item>
               <Nav.Link eventKey="disabled" disabled>
                 Fresno, CA
