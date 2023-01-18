@@ -8,6 +8,20 @@ main {
   margin-bottom: 100px;
 }
 
+.navbar {
+  background-color: rgb(var(--bs-primary));
+}
+
+.btn-primary {
+  background-color: rgb(var(--bs-secondary));
+  border-color: rgb(var(--bs-secondary));
+}
+
+.btn-primary:hover {
+  background-color: rgb(var(--bs-primary));
+  border-color: rgb(var(--bs-primary));
+}
+
 .profile {
   max-width: 50%;
 }
@@ -25,6 +39,10 @@ strong {
 
 header strong {
   color: white;
+}
+
+.bi-geo-alt-fill {
+  color: rgb(var(--bs-secondary));
 }
 
 .timeline section {
