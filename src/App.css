@@ -1,5 +1,6 @@
 :root {
-  --bs-primary: #355e3b;
+  --bs-primary: 53, 94, 59;
+  --bs-secondary: 135, 67, 145;
 }
 
 main {
@@ -19,7 +20,7 @@ main {
 }
 
 strong {
-  color: var(--bs-primary);
+  color: rgb(var(--bs-primary));
 }
 
 header strong {
@@ -27,17 +28,22 @@ header strong {
 }
 
 .timeline section {
-  border-left: solid 5px var(--bs-primary);
+  border-left: solid 5px rgb(var(--bs-primary));
   padding-bottom: 1em;
-  background-color: rgb(251, 247, 255);
+  background-color: rgba(var(--bs-secondary), 0.05);
 }
 
 .timeline h2 {
-  background-color: var(--bs-primary);
+  background-color: rgb(var(--bs-primary));
   color: white;
 }
 
 .timeline section>* {
+  padding-left: 1em;
+  padding-right: 1em;
+}
 
-  padding-left: 2em;
+.card {
+  width: 18rem;
+  max-width: 100%;
 }
