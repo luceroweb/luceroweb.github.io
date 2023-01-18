@@ -58,7 +58,9 @@ const Home = () => {
         <section aria-labelledby="alphaworks">
           <h2 id="alphaworks">2021 – 2023</h2>
           <div>
-            <h3>Fresno, CA</h3>
+            <h3>
+              <i className="bi bi-geo-alt-fill"></i> Fresno, CA
+            </h3>
             <h3>
               AlphaWorks/Bitwise | <strong>Apprentice Lead (Manager)</strong>
             </h3>
@@ -191,7 +193,9 @@ const Home = () => {
         <section aria-labelledby="content-ad">
           <h2 id="content-ad">2015 – 2021</h2>
           <div>
-            <h3>Irvine, CA</h3>
+            <h3>
+              <i className="bi bi-geo-alt-fill"></i> Irvine, CA
+            </h3>
             <h3>
               Content.ad | <strong>Front End Web Developer</strong>
             </h3>
@@ -221,7 +225,9 @@ const Home = () => {
         <section aria-labelledby="experian">
           <h2 id="experian">2012 – 2015</h2>
           <div>
-            <h3>Costa Mesa, CA: </h3>
+            <h3>
+              <i className="bi bi-geo-alt-fill"></i> Costa Mesa, CA:{" "}
+            </h3>
             <h3>
               Experian Consumer Direct |{" "}
               <strong>Front End Web Developer</strong>
@@ -267,7 +273,9 @@ const Home = () => {
         <section aria-labelledby="yamaha">
           <h2 id="yamaha">2009 – 2012</h2>
           <div>
-            <h3>Buena Park, CA</h3>
+            <h3>
+              <i className="bi bi-geo-alt-fill"></i> Buena Park, CA
+            </h3>
             <h3>
               Yamaha | <strong>Front End Web Developer Lead</strong>
             </h3>
@@ -341,7 +349,9 @@ const Home = () => {
         <section aria-labelledby="edesign">
           <h2 id="edesign">2007 – 2009</h2>
           <div>
-            <h3>Fresno, CA</h3>
+            <h3>
+              <i className="bi bi-geo-alt-fill"></i> Fresno, CA
+            </h3>
             <h3>
               e:Design, inc. | <strong>Web Architect</strong>
             </h3>
@@ -388,7 +398,9 @@ const Home = () => {
         <section aria-labelledby="netpas">
           <h2 id="netpas">2005 – 2007</h2>
           <div>
-            <h3>Fresno, CA</h3>
+            <h3>
+              <i className="bi bi-geo-alt-fill"></i> Fresno, CA
+            </h3>
             <h3>
               NetPas, inc. | <strong>Web Designer</strong>
             </h3>
@@ -412,7 +424,9 @@ const Home = () => {
         <section aria-labelledby="lucerowebdesign">
           <h2 id="lucerowebdesign">2004 – 2005</h2>
           <div>
-            <h3>Fresno, CA</h3>
+            <h3>
+              <i className="bi bi-geo-alt-fill"></i> Fresno, CA
+            </h3>
             <h3>
               Lucero Web Design | <strong>Owner</strong>
             </h3>
@@ -480,8 +494,9 @@ const Home = () => {
         <section aria-labelledby="csufresno">
           <h2 id="csufresno">2001 – 2004</h2>
           <div>
-            {" "}
-            <h3>Fresno, CA</h3>
+            <h3>
+              <i className="bi bi-geo-alt-fill"></i> Fresno, CA
+            </h3>
             <h3>
               CSU, Fresno | <strong>Assistant Web Manager</strong>
             </h3>
