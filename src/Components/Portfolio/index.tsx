@@ -18,11 +18,14 @@ const Portfolio = () => {
         <h1>Portfolio</h1>
       </Col>
       <Col className="mb-5">
-        <Card style={{ width: "18rem" }}>
+        <Card>
           <Card.Img variant="top" src={karot} alt="Karot: Saving Smart" />
           <Card.Body>
             <Card.Title>Karot: Saving Smart.</Card.Title>
             <Card.Text>An envelope savings app</Card.Text>
+            <Card.Text>
+              <small>Firebase, React-Native, HTML5, CSS3</small>
+            </Card.Text>
           </Card.Body>
           <Card.Footer>
             <a
@@ -47,11 +50,14 @@ const Portfolio = () => {
         </Card>
       </Col>
       <Col className="mb-5">
-        <Card style={{ width: "18rem" }}>
+        <Card>
           <Card.Img variant="top" src={triviachill} alt="Trivia & Chill" />
           <Card.Body>
             <Card.Title>Trivia & Chill</Card.Title>
             <Card.Text>Movie Trivia Game</Card.Text>
+            <Card.Text>
+              <small>React, Axios, HTML5, CSS3</small>
+            </Card.Text>
           </Card.Body>
           <Card.Footer>
             <a
@@ -76,11 +82,14 @@ const Portfolio = () => {
         </Card>
       </Col>
       <Col className="mb-5">
-        <Card style={{ width: "18rem" }}>
+        <Card>
           <Card.Img variant="top" src={hauntedhouse} alt="Haunted House Game" />
           <Card.Body>
             <Card.Title>Haunted House Game</Card.Title>
             <Card.Text>Choose your own adventure game.</Card.Text>
+            <Card.Text>
+              <small>React, HTML5, CSS3</small>
+            </Card.Text>
           </Card.Body>
           <Card.Footer>
             <a
@@ -105,13 +114,16 @@ const Portfolio = () => {
         </Card>
       </Col>
       <Col className="mb-5">
-        <Card style={{ width: "18rem" }}>
+        <Card>
           <Link to="/portfolio/remotelive">
             <Card.Img variant="top" src={remotelive} alt="RemoteLive" />
           </Link>
           <Card.Body>
             <Card.Title>RemoteLive</Card.Title>
             <Card.Text>Your Disklavier plays along</Card.Text>
+            <Card.Text>
+              <small>ASP, HTML, CSS, jQuery</small>
+            </Card.Text>
           </Card.Body>
           <Card.Footer>
             <Link to="/portfolio/remotelive">
@@ -121,13 +133,16 @@ const Portfolio = () => {
         </Card>
       </Col>
       <Col className="mb-5">
-        <Card style={{ width: "18rem" }}>
+        <Card>
           <Link to="/portfolio/aventage">
             <Card.Img variant="top" src={aventage} alt="AVENTAGE" />
           </Link>
           <Card.Body>
             <Card.Title>AVENTAGE</Card.Title>
             <Card.Text>Yamaha Receivers</Card.Text>
+            <Card.Text>
+              <small>Flash, HTML5, jQuery</small>
+            </Card.Text>
           </Card.Body>
           <Card.Footer>
             <Link to="/portfolio/aventage">
@@ -137,13 +152,16 @@ const Portfolio = () => {
         </Card>
       </Col>
       <Col className="mb-5">
-        <Card style={{ width: "18rem" }}>
+        <Card>
           <Link to="/portfolio/unitedsecuritybank">
             <Card.Img variant="top" src={usb} alt="United Security Bank" />
           </Link>
           <Card.Body>
             <Card.Title>United Security Bank</Card.Title>
             <Card.Text>WordPress marketing site</Card.Text>
+            <Card.Text>
+              <small>Joomla CMS, PHP, SQL, HTML, CSS</small>
+            </Card.Text>
           </Card.Body>
           <Card.Footer>
             <Link to="/portfolio/unitedsecuritybank">
@@ -153,25 +171,7 @@ const Portfolio = () => {
         </Card>
       </Col>
       <Col className="mb-5">
-        <Card style={{ width: "18rem" }}>
-          <Card.Img
-            variant="top"
-            src={smittcamp}
-            alt="Smittcamp Family Honors College"
-          />
-          <Card.Body>
-            <Card.Title>Smittcamp Family:</Card.Title>
-            <Card.Text>CSU, Fresno Honors College</Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <Link to="/portfolio/smittcamp">
-              <Button>Details</Button>
-            </Link>
-          </Card.Footer>
-        </Card>
-      </Col>
-      <Col className="mb-5">
-        <Card style={{ width: "18rem" }}>
+        <Card>
           <Link to="/portfolio/straightadvocatesforequality">
             <Card.Img
               variant="top"
@@ -182,6 +182,9 @@ const Portfolio = () => {
           <Card.Body>
             <Card.Title>SAFE:</Card.Title>
             <Card.Text>Straight Advocates for Equality</Card.Text>
+            <Card.Text>
+              <small>WordPress, PHP, MySQL, HTML, CSS, jQuery</small>
+            </Card.Text>
           </Card.Body>
           <Card.Footer>
             <Link to="/portfolio/straightadvocatesforequality">
@@ -191,7 +194,7 @@ const Portfolio = () => {
         </Card>
       </Col>
       <Col className="mb-5">
-        <Card style={{ width: "18rem" }}>
+        <Card>
           <Link to="/portfolio/meetinthemiddle4equality">
             <Card.Img
               variant="top"
@@ -201,9 +204,33 @@ const Portfolio = () => {
           </Link>
           <Card.Body>
             <Card.Title>Meet in the Middle 4 Equality</Card.Title>
+            <Card.Text>
+              <small>Joomla, Flash, PHP, SQL, HTML, CSS, jQuery</small>
+            </Card.Text>
           </Card.Body>
           <Card.Footer>
             <Link to="/portfolio/meetinthemiddle4equality">
+              <Button>Details</Button>
+            </Link>
+          </Card.Footer>
+        </Card>
+      </Col>
+      <Col className="mb-5">
+        <Card>
+          <Card.Img
+            variant="top"
+            src={smittcamp}
+            alt="Smittcamp Family Honors College"
+          />
+          <Card.Body>
+            <Card.Title>Smittcamp Family:</Card.Title>
+            <Card.Text>CSU, Fresno Honors College</Card.Text>
+            <Card.Text>
+              <small>Flash, Adobe Contribute, HTML, CSS, jQuery</small>
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <Link to="/portfolio/smittcamp">
               <Button>Details</Button>
             </Link>
           </Card.Footer>
