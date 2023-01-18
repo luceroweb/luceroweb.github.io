@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.25a3a10b.css",
-    "main.js": "/static/js/main.254f9d3d.js",
+    "main.css": "/static/css/main.5e59d3a0.css",
+    "main.js": "/static/js/main.cd139f45.js",
     "static/js/787.f2e25fa4.chunk.js": "/static/js/787.f2e25fa4.chunk.js",
     "static/media/karot1login.png": "/static/media/karot1login.7d1bf88596f3edb222db.png",
     "static/media/hauntedhouse1introdesktop.png": "/static/media/hauntedhouse1introdesktop.4670b3ddbc20e9ff1d5b.png",
@@ -33,12 +33,12 @@
     "static/media/smittcamp_thumb.jpg": "/static/media/smittcamp_thumb.95730cb9ac63674606ad.jpg",
     "static/media/face.jpg": "/static/media/face.a04258c4dc4f0306c486.jpg",
     "index.html": "/index.html",
-    "main.25a3a10b.css.map": "/static/css/main.25a3a10b.css.map",
-    "main.254f9d3d.js.map": "/static/js/main.254f9d3d.js.map",
+    "main.5e59d3a0.css.map": "/static/css/main.5e59d3a0.css.map",
+    "main.cd139f45.js.map": "/static/js/main.cd139f45.js.map",
     "787.f2e25fa4.chunk.js.map": "/static/js/787.f2e25fa4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25a3a10b.css",
-    "static/js/main.254f9d3d.js"
+    "static/css/main.5e59d3a0.css",
+    "static/js/main.cd139f45.js"
   ]
 }
