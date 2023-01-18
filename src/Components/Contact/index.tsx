@@ -20,7 +20,10 @@ const Contact = () => {
   return (
     <Row>
       <Col>
-        <h1 className="fs-5">Contact</h1>
+        <h1 className="fs-5">Contact Juan Lucero, Senior Web Developer</h1>
+        <p>
+          <i className="bi bi-geo-alt-fill"></i> Located in: Fresno, CA
+        </p>
 
         {isSent ? (
           <h1 className="fs-3">
