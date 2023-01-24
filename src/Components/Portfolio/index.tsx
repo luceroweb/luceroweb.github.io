@@ -17,7 +17,7 @@ const Portfolio = () => {
       <Col xs={12}>
         <h1>Portfolio</h1>
       </Col>
-      <Col className="mb-5">
+      <Col className="mb-5 d-flex justify-content-center">
         <Card>
           <Card.Img variant="top" src={karot} alt="Karot: Saving Smart" />
           <Card.Body>
@@ -49,7 +49,7 @@ const Portfolio = () => {
           </Card.Footer>
         </Card>
       </Col>
-      <Col className="mb-5">
+      <Col className="mb-5 d-flex justify-content-center">
         <Card>
           <Card.Img variant="top" src={triviachill} alt="Trivia & Chill" />
           <Card.Body>
@@ -81,7 +81,7 @@ const Portfolio = () => {
           </Card.Footer>
         </Card>
       </Col>
-      <Col className="mb-5">
+      <Col className="mb-5 d-flex justify-content-center">
         <Card>
           <Card.Img variant="top" src={hauntedhouse} alt="Haunted House Game" />
           <Card.Body>
@@ -113,7 +113,7 @@ const Portfolio = () => {
           </Card.Footer>
         </Card>
       </Col>
-      <Col className="mb-5">
+      <Col className="mb-5 d-flex justify-content-center">
         <Card>
           <Link to="/portfolio/remotelive">
             <Card.Img variant="top" src={remotelive} alt="RemoteLive" />
@@ -132,7 +132,7 @@ const Portfolio = () => {
           </Card.Footer>
         </Card>
       </Col>
-      <Col className="mb-5">
+      <Col className="mb-5 d-flex justify-content-center">
         <Card>
           <Link to="/portfolio/aventage">
             <Card.Img variant="top" src={aventage} alt="AVENTAGE" />
@@ -151,7 +151,7 @@ const Portfolio = () => {
           </Card.Footer>
         </Card>
       </Col>
-      <Col className="mb-5">
+      <Col className="mb-5 d-flex justify-content-center">
         <Card>
           <Link to="/portfolio/unitedsecuritybank">
             <Card.Img variant="top" src={usb} alt="United Security Bank" />
@@ -170,7 +170,7 @@ const Portfolio = () => {
           </Card.Footer>
         </Card>
       </Col>
-      <Col className="mb-5">
+      <Col className="mb-5 d-flex justify-content-center">
         <Card>
           <Link to="/portfolio/straightadvocatesforequality">
             <Card.Img
@@ -193,7 +193,7 @@ const Portfolio = () => {
           </Card.Footer>
         </Card>
       </Col>
-      <Col className="mb-5">
+      <Col className="mb-5 d-flex justify-content-center">
         <Card>
           <Link to="/portfolio/meetinthemiddle4equality">
             <Card.Img
@@ -215,7 +215,7 @@ const Portfolio = () => {
           </Card.Footer>
         </Card>
       </Col>
-      <Col className="mb-5">
+      <Col className="mb-5 d-flex justify-content-center">
         <Card>
           <Card.Img
             variant="top"
