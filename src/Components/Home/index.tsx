@@ -9,7 +9,7 @@ import smittcamp from "../Portfolio/Smittcamp/smittcamp_thumb.jpg";
 import safe from "../Portfolio/StraightAdvocatesForEquality/layout_thumb.jpg";
 import meetinthemiddle from "../Portfolio/MeetInTheMiddle4Equality/meetinthemiddle_thumb.jpg";
 import karot from "../Portfolio/Karot/karot1login.png";
-import triviachill from "../Portfolio/Trivia&Chill/trivia&chill0titledesktop.png";
+import triviachill from "../Portfolio/Trivia&Chill/tc0title.png";
 import hauntedhouse from "../Portfolio/HauntedHouse/hh1intro.png";
 
 const Home = () => {

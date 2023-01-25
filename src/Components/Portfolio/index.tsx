@@ -8,7 +8,7 @@ import smittcamp from "./Smittcamp/smittcamp_thumb.jpg";
 import safe from "./StraightAdvocatesForEquality/layout_thumb.jpg";
 import meetinthemiddle from "./MeetInTheMiddle4Equality/meetinthemiddle_thumb.jpg";
 import karot from "./Karot/karot1login.png";
-import triviachill from "./Trivia&Chill/trivia&chill0titledesktop.png";
+import triviachill from "./Trivia&Chill/tc0title.png";
 import hauntedhouse from "./HauntedHouse/hh1intro.png";
 
 const Portfolio = () => {
