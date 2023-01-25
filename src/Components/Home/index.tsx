@@ -29,14 +29,14 @@ const Home = () => {
           clients, who come back again and again. Invite me to do this for you.
         </p>
         <div className="text-center">
-          <Link to="/contact" className="d-inline-block m-2">
+          <Link to="/contact" className="d-inline-block m-1">
             <Button>Contact</Button>
           </Link>
           <a
             href="https://drive.google.com/file/d/1vtnCZfCtNnSOT1nFXd_WWVPRjaHRHmDS/view?usp=share_link"
             rel="noreferrer"
             target="_blank"
-            className="d-inline-block m-2"
+            className="d-inline-block m-1"
           >
             <Button variant="outline-secondary">
               Resume <i className="bi bi-filetype-pdf"></i>
@@ -46,7 +46,7 @@ const Home = () => {
             href="https://github.com/luceroweb"
             rel="noreferrer"
             target="_blank"
-            className="d-inline-block m-2"
+            className="d-inline-block m-1"
           >
             <Button variant="outline-secondary">
               GitHub <i className="bi bi-github"></i>
@@ -91,7 +91,7 @@ const Home = () => {
                   <Card.Title>Karot: Saving Smart.</Card.Title>
                   <Card.Text>An envelope savings app</Card.Text>
                   <Card.Text>
-                    <small>Firebase, React-Native, HTML5, CSS3</small>
+                    <small>Firebase, Native, Redux, TypeScript</small>
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
@@ -99,7 +99,7 @@ const Home = () => {
                     href="https://karot-saving-smart.netlify.app/"
                     rel="noreferrer"
                     target="_blank"
-                    className="m-2"
+                    className="m-1"
                   >
                     <Button>App</Button>
                   </a>
@@ -107,12 +107,15 @@ const Home = () => {
                     href="https://github.com/luceroweb/karot-saving-smart"
                     rel="noreferrer"
                     target="_blank"
-                    className="m-2"
+                    className="m-1"
                   >
                     <Button>
                       <i className="bi bi-github"></i> Code
                     </Button>
                   </a>
+                  <Link to="/portfolio/karotsavingsmart" className="m-1">
+                    <Button>Details</Button>
+                  </Link>
                 </Card.Footer>
               </Card>
             </Col>

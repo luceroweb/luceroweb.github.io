@@ -24,7 +24,7 @@ const Portfolio = () => {
             <Card.Title>Karot: Saving Smart.</Card.Title>
             <Card.Text>An envelope savings app</Card.Text>
             <Card.Text>
-              <small>Firebase, React-Native, HTML5, CSS3</small>
+              <small>Firebase, Native, Redux, TypeScript</small>
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -46,6 +46,9 @@ const Portfolio = () => {
                 <i className="bi bi-github"></i> Code
               </Button>
             </a>
+            <Link to="/portfolio/karotsavingsmart" className="m-1">
+              <Button>Details</Button>
+            </Link>
           </Card.Footer>
         </Card>
       </Col>

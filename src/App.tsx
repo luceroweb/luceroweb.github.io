@@ -6,6 +6,7 @@ import Footer from "./Components/Theme/Footer";
 import Home from "./Components/Home";
 import Experience from "./Components/Experience";
 import Portfolio from "./Components/Portfolio";
+import Karot from "./Components/Portfolio/Karot";
 import TriviaChill from "./Components/Portfolio/Trivia&Chill";
 import HauntedHouse from "./Components/Portfolio/HauntedHouse";
 import RemoteLive from "./Components/Portfolio/RemoteLive";
@@ -29,6 +30,7 @@ function App() {
             <Route path="/experience" element={<Experience />} />
             <Route path="/proficiencies" element={<Proficiencies />} />
             <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/portfolio/karotsavingsmart" element={<Karot />} />
             <Route path="/portfolio/triviachill" element={<TriviaChill />} />
             <Route
               path="/portfolio/hauntedhousegame"
