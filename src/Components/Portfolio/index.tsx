@@ -56,7 +56,7 @@ const Portfolio = () => {
             <Card.Title>Trivia & Chill</Card.Title>
             <Card.Text>Movie Trivia Game</Card.Text>
             <Card.Text>
-              <small>React, Axios, HTML5, CSS3</small>
+              <small>React, Redux, Axios, HTML5, CSS3</small>
             </Card.Text>
           </Card.Body>
           <Card.Footer>
