@@ -135,7 +135,7 @@ const Home = () => {
                     href="https://luceroweb.github.io/trivia-and-chill/"
                     rel="noreferrer"
                     target="_blank"
-                    className="m-2"
+                    className="m-1"
                   >
                     <Button>App</Button>
                   </a>
@@ -143,12 +143,15 @@ const Home = () => {
                     href="https://github.com/luceroweb/trivia-and-chill"
                     rel="noreferrer"
                     target="_blank"
-                    className="m-2"
+                    className="m-1"
                   >
                     <Button>
                       <i className="bi bi-github"></i> Code
                     </Button>
                   </a>
+                  <Link to="/portfolio/triviachill" className="m-1">
+                    <Button>Details</Button>
+                  </Link>
                 </Card.Footer>
               </Card>
             </Col>
@@ -171,7 +174,7 @@ const Home = () => {
                     href="https://luceroweb.github.io/haunted-house-game"
                     rel="noreferrer"
                     target="_blank"
-                    className="m-2"
+                    className="m-1"
                   >
                     <Button>App</Button>
                   </a>
@@ -179,7 +182,7 @@ const Home = () => {
                     href="https://github.com/luceroweb/haunted-house-game"
                     rel="noreferrer"
                     target="_blank"
-                    className="m-2"
+                    className="m-1"
                   >
                     <Button>
                       <i className="bi bi-github"></i> Code

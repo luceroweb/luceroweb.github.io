@@ -78,6 +78,9 @@ const Portfolio = () => {
                 <i className="bi bi-github"></i> Code
               </Button>
             </a>
+            <Link to="/portfolio/triviachill" className="m-1">
+              <Button>Details</Button>
+            </Link>
           </Card.Footer>
         </Card>
       </Col>
