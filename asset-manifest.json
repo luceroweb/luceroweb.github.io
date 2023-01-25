@@ -1,19 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.5e59d3a0.css",
-    "main.js": "/static/js/main.78af4622.js",
+    "main.js": "/static/js/main.6771f767.js",
     "static/js/787.f2e25fa4.chunk.js": "/static/js/787.f2e25fa4.chunk.js",
     "static/media/karot1login.png": "/static/media/karot1login.7d1bf88596f3edb222db.png",
-    "static/media/hauntedhouse1introdesktop.png": "/static/media/hauntedhouse1introdesktop.4670b3ddbc20e9ff1d5b.png",
     "static/media/trivia&chill0titledesktop.png": "/static/media/trivia&chill0titledesktop.6f8cf17a2cb03bc294a6.png",
     "static/media/meetinthemiddle1.jpg": "/static/media/meetinthemiddle1.4cb26fe9d77f839cac8d.jpg",
     "static/media/layout2open.jpg": "/static/media/layout2open.229754448180dd5ffefe.jpg",
     "static/media/layout2closed.jpg": "/static/media/layout2closed.211ae1ef96e4622fb25f.jpg",
+    "static/media/hh1intro.png": "/static/media/hh1intro.cb20ead97d7109ae0931.png",
     "static/media/meetinthemiddle3.jpg": "/static/media/meetinthemiddle3.079861454964601df881.jpg",
+    "static/media/hh5goldkey.png": "/static/media/hh5goldkey.44f0d59c9d12e7710f1b.png",
     "static/media/layout_thumb.jpg": "/static/media/layout_thumb.279fecbf8e26d065abe0.jpg",
+    "static/media/hh4gameover.png": "/static/media/hh4gameover.9a196fcbdb814ec88089.png",
     "static/media/meetinthemiddle2.jpg": "/static/media/meetinthemiddle2.7d6e2b95d9da898b1b19.jpg",
     "static/media/meetinthemiddle_thumb.jpg": "/static/media/meetinthemiddle_thumb.ba959a96d78ad73bc451.jpg",
+    "static/media/hh2room.png": "/static/media/hh2room.526f52116eb1f520f89c.png",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/hh6youwin.png": "/static/media/hh6youwin.21d332f3be9d87bc3588.png",
+    "static/media/hh3correct.png": "/static/media/hh3correct.28360f28475456a5ccb2.png",
     "static/media/smittcamp2_1.jpg": "/static/media/smittcamp2_1.e7e8ee6580ead2a3009d.jpg",
     "static/media/smittcamp3_1.jpg": "/static/media/smittcamp3_1.475dd049df76081926bc.jpg",
     "static/media/smittcamp1.jpg": "/static/media/smittcamp1.2c426ff5c22b8afc6d0a.jpg",
@@ -34,11 +39,11 @@
     "static/media/face.jpg": "/static/media/face.a04258c4dc4f0306c486.jpg",
     "index.html": "/index.html",
     "main.5e59d3a0.css.map": "/static/css/main.5e59d3a0.css.map",
-    "main.78af4622.js.map": "/static/js/main.78af4622.js.map",
+    "main.6771f767.js.map": "/static/js/main.6771f767.js.map",
     "787.f2e25fa4.chunk.js.map": "/static/js/787.f2e25fa4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e59d3a0.css",
-    "static/js/main.78af4622.js"
+    "static/js/main.6771f767.js"
   ]
 }
