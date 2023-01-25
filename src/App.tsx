@@ -6,6 +6,7 @@ import Footer from "./Components/Theme/Footer";
 import Home from "./Components/Home";
 import Experience from "./Components/Experience";
 import Portfolio from "./Components/Portfolio";
+import HauntedHouse from "./Components/Portfolio/HauntedHouse";
 import RemoteLive from "./Components/Portfolio/RemoteLive";
 import Aventage from "./Components/Portfolio/Aventage";
 import UnitedSecurityBank from "./Components/Portfolio/UnitedSecurityBank";
@@ -27,6 +28,10 @@ function App() {
             <Route path="/experience" element={<Experience />} />
             <Route path="/proficiencies" element={<Proficiencies />} />
             <Route path="/portfolio" element={<Portfolio />} />
+            <Route
+              path="/portfolio/hauntedhousegame"
+              element={<HauntedHouse />}
+            />
             <Route path="/portfolio/remotelive" element={<RemoteLive />} />
             <Route path="/portfolio/aventage" element={<Aventage />} />
             <Route

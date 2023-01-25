@@ -10,7 +10,7 @@ import safe from "../Portfolio/StraightAdvocatesForEquality/layout_thumb.jpg";
 import meetinthemiddle from "../Portfolio/MeetInTheMiddle4Equality/meetinthemiddle_thumb.jpg";
 import karot from "../Portfolio/Karot/karot1login.png";
 import triviachill from "../Portfolio/Trivia&Chill/trivia&chill0titledesktop.png";
-import hauntedhouse from "../Portfolio/HauntedHouse/hauntedhouse1introdesktop.png";
+import hauntedhouse from "../Portfolio/HauntedHouse/hh1intro.png";
 
 const Home = () => {
   return (
@@ -185,6 +185,9 @@ const Home = () => {
                       <i className="bi bi-github"></i> Code
                     </Button>
                   </a>
+                  <Link to="/portfolio/hauntedhousegame">
+                    <Button>Details</Button>
+                  </Link>
                 </Card.Footer>
               </Card>
             </Col>

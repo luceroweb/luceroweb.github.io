@@ -9,7 +9,7 @@ import safe from "./StraightAdvocatesForEquality/layout_thumb.jpg";
 import meetinthemiddle from "./MeetInTheMiddle4Equality/meetinthemiddle_thumb.jpg";
 import karot from "./Karot/karot1login.png";
 import triviachill from "./Trivia&Chill/trivia&chill0titledesktop.png";
-import hauntedhouse from "./HauntedHouse/hauntedhouse1introdesktop.png";
+import hauntedhouse from "./HauntedHouse/hh1intro.png";
 
 const Portfolio = () => {
   return (
@@ -32,7 +32,7 @@ const Portfolio = () => {
               href="https://karot-saving-smart.netlify.app/"
               rel="noreferrer"
               target="_blank"
-              className="m-2"
+              className="m-1"
             >
               <Button>App</Button>
             </a>
@@ -40,7 +40,7 @@ const Portfolio = () => {
               href="https://github.com/luceroweb/karot-saving-smart"
               rel="noreferrer"
               target="_blank"
-              className="m-2"
+              className="m-1"
             >
               <Button>
                 <i className="bi bi-github"></i> Code
@@ -64,7 +64,7 @@ const Portfolio = () => {
               href="https://luceroweb.github.io/trivia-and-chill/"
               rel="noreferrer"
               target="_blank"
-              className="m-2"
+              className="m-1"
             >
               <Button>App</Button>
             </a>
@@ -72,7 +72,7 @@ const Portfolio = () => {
               href="https://github.com/luceroweb/trivia-and-chill"
               rel="noreferrer"
               target="_blank"
-              className="m-2"
+              className="m-1"
             >
               <Button>
                 <i className="bi bi-github"></i> Code
@@ -96,7 +96,7 @@ const Portfolio = () => {
               href="https://luceroweb.github.io/haunted-house-game"
               rel="noreferrer"
               target="_blank"
-              className="m-2"
+              className="m-1"
             >
               <Button>App</Button>
             </a>
@@ -104,12 +104,15 @@ const Portfolio = () => {
               href="https://github.com/luceroweb/haunted-house-game"
               rel="noreferrer"
               target="_blank"
-              className="m-2"
+              className="m-1"
             >
               <Button>
                 <i className="bi bi-github"></i> Code
               </Button>
             </a>
+            <Link to="/portfolio/hauntedhousegame" className="m-1">
+              <Button>Details</Button>
+            </Link>
           </Card.Footer>
         </Card>
       </Col>
