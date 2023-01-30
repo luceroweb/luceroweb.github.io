@@ -12,7 +12,7 @@ const Aventage = () => {
           <strong>Status:</strong> Previous Site Design
         </p>
         <p>
-          <strong>Technologies:</strong> Flash, HTML5, jQuery
+          <strong>Technologies:</strong> Flash, HTML, jQuery
         </p>
         <div style={{ maxWidth: "700px" }} className="mb-3">
           <Carousel fade variant="dark" className="mb-3">
@@ -27,8 +27,8 @@ const Aventage = () => {
             <small>
               <strong>Side 1:</strong> AVENTAGE Receiver family of products
               landing page featuring a poster with links to all the products in
-              the family, and an embedded HTML5 video introduction to the
-              product line. At the end of the video, the poster reappears.
+              the family, and an embedded HTML video introduction to the product
+              line. At the end of the video, the poster reappears.
             </small>
           </p>
           <p>
@@ -46,7 +46,7 @@ const Aventage = () => {
         </p>
         <h3>Challenges</h3>
         <ul>
-          <li>Flash/HTML5 video optimized for iOS and Safari.</li>
+          <li>Flash/HTML video optimized for iOS and Safari.</li>
           <li>
             jQuery controlled “tabs” (large feature buttons) containing product
             features descriptions and pop-up images.

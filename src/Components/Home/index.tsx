@@ -77,7 +77,7 @@ const Home = () => {
               <li>
                 Trained:{" "}
                 <strong>
-                  HTML5/CSS/JS, Agile Methodology, gitHub, debugging
+                  HTML/CSS/JS, Agile Methodology, gitHub, debugging
                 </strong>
               </li>
             </ul>
@@ -130,7 +130,7 @@ const Home = () => {
                   <Card.Title>Trivia & Chill</Card.Title>
                   <Card.Text>Movie Trivia Game</Card.Text>
                   <Card.Text>
-                    <small>React, Redux, Axios, HTML5, CSS3</small>
+                    <small>React, Redux, Axios, HTML, CSS</small>
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
@@ -169,7 +169,7 @@ const Home = () => {
                   <Card.Title>Haunted House Game</Card.Title>
                   <Card.Text>Choose your own adventure game.</Card.Text>
                   <Card.Text>
-                    <small>React, HTML5, CSS3</small>
+                    <small>React, HTML, CSS</small>
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
@@ -221,8 +221,8 @@ const Home = () => {
                 advertisers, and publishers
               </li>
               <li>
-                Maintained & extended <strong>HTML5/CSS3/JS</strong> ad layouts
-                & animations
+                Maintained & extended <strong>HTML/CSS/JS</strong> ad layouts &
+                animations
               </li>
               <li>
                 Maintained high traffic WP sites plus primary marketing site &
@@ -343,7 +343,7 @@ const Home = () => {
                   <Card.Title>AVENTAGE</Card.Title>
                   <Card.Text>Yamaha Receivers</Card.Text>
                   <Card.Text>
-                    <small>Flash, HTML5, jQuery</small>
+                    <small>Flash, HTML, jQuery</small>
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>

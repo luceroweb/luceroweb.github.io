@@ -59,7 +59,7 @@ const Portfolio = () => {
             <Card.Title>Trivia & Chill</Card.Title>
             <Card.Text>Movie Trivia Game</Card.Text>
             <Card.Text>
-              <small>React, Redux, Axios, HTML5, CSS3</small>
+              <small>React, Redux, Axios, HTML, CSS</small>
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -94,7 +94,7 @@ const Portfolio = () => {
             <Card.Title>Haunted House Game</Card.Title>
             <Card.Text>Choose your own adventure game.</Card.Text>
             <Card.Text>
-              <small>React, HTML5, CSS3</small>
+              <small>React, HTML, CSS</small>
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -150,7 +150,7 @@ const Portfolio = () => {
             <Card.Title>AVENTAGE</Card.Title>
             <Card.Text>Yamaha Receivers</Card.Text>
             <Card.Text>
-              <small>Flash, HTML5, jQuery</small>
+              <small>Flash, HTML, jQuery</small>
             </Card.Text>
           </Card.Body>
           <Card.Footer>

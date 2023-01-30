@@ -15,7 +15,7 @@ const TriviaChill = () => {
           <strong>Status:</strong> Live
         </p>
         <p>
-          <strong>Technologies:</strong> React,Redux, Axios, HTML5, CSS3
+          <strong>Technologies:</strong> React,Redux, Axios, HTML, CSS
         </p>
 
         <p>

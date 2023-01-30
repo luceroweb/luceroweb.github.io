@@ -16,7 +16,7 @@ const HauntedHouse = () => {
           <strong>Status:</strong> Live
         </p>
         <p>
-          <strong>Technologies:</strong> React, HTML5, CSS3, audio/video
+          <strong>Technologies:</strong> React, HTML, CSS, audio/video
         </p>
 
         <p>

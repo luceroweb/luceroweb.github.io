@@ -13,7 +13,7 @@ const Karot = () => {
         </p>
         <p>
           <strong>Technologies:</strong> Firebase, React-Native, Redux,
-          TypeScript, Axios, HTML5, CSS3
+          TypeScript, Axios, HTML, CSS
         </p>
 
         <p>

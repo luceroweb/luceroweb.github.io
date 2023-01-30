@@ -24,7 +24,7 @@ const Experience = () => {
           </li>
           <li>
             Trained:{" "}
-            <strong>HTML5/CSS/JS, Agile Methodology, gitHub, debugging</strong>
+            <strong>HTML/CSS/JS, Agile Methodology, gitHub, debugging</strong>
           </li>
         </ul>
         <h2 className="fs-5">
@@ -46,7 +46,7 @@ const Experience = () => {
             and publishers
           </li>
           <li>
-            Maintained & extended <strong>HTML5/CSS3/JS</strong> ad layouts &
+            Maintained & extended <strong>HTML/CSS/JS</strong> ad layouts &
             animations
           </li>
           <li>
