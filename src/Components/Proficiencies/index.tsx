@@ -45,7 +45,6 @@ const Proficiencies = () => {
               </Badge>{" "}
               <Badge bg="secondary">HTML</Badge>{" "}
               <Badge bg="danger">Handlebars</Badge>{" "}
-              <Badge bg="secondary">HTML</Badge>{" "}
               <Badge bg="warning" text="dark">
                 JavaScript
               </Badge>{" "}
@@ -58,7 +57,6 @@ const Proficiencies = () => {
               <Badge bg="info" text="dark">
                 MySQL
               </Badge>{" "}
-              <Badge bg="secondary">HTML</Badge>{" "}
               <Badge bg="secondary">HTML</Badge>{" "}
               <Badge bg="secondary">Bootstrap</Badge>{" "}
               <Badge bg="warning" text="dark">
@@ -73,7 +71,6 @@ const Proficiencies = () => {
               <Badge bg="info" text="dark">
                 SQL
               </Badge>{" "}
-              <Badge bg="secondary">HTML</Badge>{" "}
               <Badge bg="secondary">HTML</Badge>{" "}
               <Badge bg="warning" text="dark">
                 JavaScript
