@@ -65,3 +65,13 @@ header strong {
   width: 18rem;
   max-width: 100%;
 }
+
+.orange {
+  background-color: orange !important;
+  color: black;
+}
+
+.indigo {
+  background-color: indigo !important;
+  color: white;
+}
