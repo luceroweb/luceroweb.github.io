@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col, Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import wpplugin from "../Portfolio/ContentAdWordPressPlugin/screenshot-1.png";
+import jswidgets from "../Portfolio/ContentAdWidgets/mobileslideup.jpeg";
 import remotelive from "./RemoteLive/remotelive_thumb.jpg";
 import aventage from "./Aventage/aventage_thumb.jpg";
 import usb from "./UnitedSecurityBank/usb_thumb.jpg";
@@ -153,6 +154,23 @@ const Portfolio = () => {
               </Button>
             </a>
             <Link to="/portfolio/wordpressplugin" className="m-1">
+              <Button>Details</Button>
+            </Link>
+          </Card.Footer>
+        </Card>
+      </Col>
+      <Col className="mb-5 d-flex justify-content-center">
+        <Card>
+          <Card.Img variant="top" src={jswidgets} alt="Karot: Saving Smart" />
+          <Card.Body>
+            <Card.Title>JavaScript Ad Widgets</Card.Title>
+            <Card.Text>for Content.ad</Card.Text>
+            <Card.Text>
+              <small>JavaScript, Photoshop, HTML, CSS</small>
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <Link to="/portfolio/javascriptadwidgets" className="m-1">
               <Button>Details</Button>
             </Link>
           </Card.Footer>

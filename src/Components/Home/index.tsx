@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col, Button, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import face from "../../images/face.jpg";
+import jswidgets from "../Portfolio/ContentAdWidgets/mobileslideup.jpeg";
 import wpplugin from "../Portfolio/ContentAdWordPressPlugin/screenshot-1.png";
 import remotelive from "../Portfolio/RemoteLive/remotelive_thumb.jpg";
 import aventage from "../Portfolio/Aventage/aventage_thumb.jpg";
@@ -237,7 +238,7 @@ const Home = () => {
                 <Card.Img
                   variant="top"
                   src={wpplugin}
-                  alt="Karot: Saving Smart"
+                  alt="Content.ad WordPress Plugin"
                 />
                 <Card.Body>
                   <Card.Title>WordPress Plugin</Card.Title>
@@ -266,6 +267,27 @@ const Home = () => {
                     </Button>
                   </a>
                   <Link to="/portfolio/wordpressplugin" className="m-1">
+                    <Button>Details</Button>
+                  </Link>
+                </Card.Footer>
+              </Card>
+            </Col>
+            <Col className="mb-5 d-flex justify-content-center">
+              <Card>
+                <Card.Img
+                  variant="top"
+                  src={jswidgets}
+                  alt="Karot: Saving Smart"
+                />
+                <Card.Body>
+                  <Card.Title>JavaScript Ad Widgets</Card.Title>
+                  <Card.Text>for Content.ad</Card.Text>
+                  <Card.Text>
+                    <small>JavaScript, Photoshop, HTML, CSS</small>
+                  </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                  <Link to="/portfolio/javascriptadwidgets" className="m-1">
                     <Button>Details</Button>
                   </Link>
                 </Card.Footer>

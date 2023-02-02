@@ -10,6 +10,7 @@ import Karot from "./Components/Portfolio/Karot";
 import TriviaChill from "./Components/Portfolio/Trivia&Chill";
 import HauntedHouse from "./Components/Portfolio/HauntedHouse";
 import WPPlugin from "./Components/Portfolio/ContentAdWordPressPlugin";
+import JSWidgets from "./Components/Portfolio/ContentAdWidgets";
 import RemoteLive from "./Components/Portfolio/RemoteLive";
 import Aventage from "./Components/Portfolio/Aventage";
 import UnitedSecurityBank from "./Components/Portfolio/UnitedSecurityBank";
@@ -38,6 +39,10 @@ function App() {
               element={<HauntedHouse />}
             />
             <Route path="/portfolio/wordpressplugin" element={<WPPlugin />} />
+            <Route
+              path="/portfolio/javascriptadwidgets"
+              element={<JSWidgets />}
+            />
             <Route path="/portfolio/remotelive" element={<RemoteLive />} />
             <Route path="/portfolio/aventage" element={<Aventage />} />
             <Route
