@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col, Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import wpplugin from "../Portfolio/ContentAdWordPressPlugin/screenshot-1.png";
 import remotelive from "./RemoteLive/remotelive_thumb.jpg";
 import aventage from "./Aventage/aventage_thumb.jpg";
 import usb from "./UnitedSecurityBank/usb_thumb.jpg";
@@ -117,6 +118,41 @@ const Portfolio = () => {
               </Button>
             </a>
             <Link to="/portfolio/hauntedhousegame" className="m-1">
+              <Button>Details</Button>
+            </Link>
+          </Card.Footer>
+        </Card>
+      </Col>
+      <Col className="mb-5 d-flex justify-content-center">
+        <Card>
+          <Card.Img variant="top" src={wpplugin} alt="Karot: Saving Smart" />
+          <Card.Body>
+            <Card.Title>WordPress Plugin</Card.Title>
+            <Card.Text>for Content.ad</Card.Text>
+            <Card.Text>
+              <small>WordPress, PHP, HTML, CSS, jQuery</small>
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <a
+              href="https://wordpress.org/plugins/contentad/"
+              rel="noreferrer"
+              target="_blank"
+              className="m-1"
+            >
+              <Button>Plugin</Button>
+            </a>
+            <a
+              href="https://plugins.trac.wordpress.org/browser/contentad/"
+              rel="noreferrer"
+              target="_blank"
+              className="m-1"
+            >
+              <Button>
+                <i className="bi bi-wordpress"></i> Code
+              </Button>
+            </a>
+            <Link to="/portfolio/wordpressplugin" className="m-1">
               <Button>Details</Button>
             </Link>
           </Card.Footer>
