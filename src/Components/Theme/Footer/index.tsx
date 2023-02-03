@@ -10,7 +10,7 @@ const Footer = () => {
           <Nav className="justify-content-center" activeKey="/home">
             <Nav.Item>
               <Nav.Link eventKey="disabled" disabled>
-                Fresno, CA
+                <i className="bi bi-geo-alt-fill"></i> Fresno, CA
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
