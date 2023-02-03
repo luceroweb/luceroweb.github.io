@@ -1,6 +1,16 @@
 :root {
   --bs-primary: 53, 94, 59;
   --bs-secondary: 135, 67, 145;
+  --color1: 53, 94, 59;
+  --color2: 65, 112, 102;
+  --color3: 41, 39, 42;
+  --color4: 48, 18, 22;
+  --color5: 186, 0, 0;
+  --color6: 123, 63, 0;
+  --color7: 242, 133, 0;
+  --color8: 252, 210, 82;
+  --color9: 119, 136, 153;
+  --color10: 214, 229, 232;
 }
 
 main {
@@ -93,12 +103,54 @@ header strong {
   max-width: 100%;
 }
 
-.orange {
-  background-color: orange !important;
+/* badge colors */
+
+.group1 {
+  background-color: rgba(var(--color1), 0.8) !important;
+  color: white;
+}
+
+.group2 {
+  background-color: rgba(var(--color2), 0.8) !important;
+  color: white;
+}
+
+.group3 {
+  background-color: rgba(var(--color3), 0.8) !important;
+  color: white;
+}
+
+.group4 {
+  background-color: rgba(var(--color4), 0.8) !important;
+  color: white;
+}
+
+.group5 {
+  background-color: rgba(var(--color5), 0.8) !important;
+  color: white;
+}
+
+.group6 {
+  background-color: rgba(var(--color6), 0.8) !important;
+  color: white;
+}
+
+.group7 {
+  background-color: rgba(var(--color7), 0.8) !important;
   color: black;
 }
 
-.indigo {
-  background-color: indigo !important;
+.group8 {
+  background-color: rgba(var(--color8), 0.8) !important;
+  color: black;
+}
+
+.group9 {
+  background-color: rgba(var(--color9), 0.8) !important;
   color: white;
+}
+
+.group10 {
+  background-color: rgba(var(--color10), 0.8) !important;
+  color: black;
 }
