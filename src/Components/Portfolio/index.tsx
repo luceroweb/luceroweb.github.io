@@ -166,7 +166,7 @@ const Portfolio = () => {
             <Card.Title>JavaScript Ad Widgets</Card.Title>
             <Card.Text>for Content.ad</Card.Text>
             <Card.Text>
-              <small>JavaScript, Photoshop, HTML, CSS</small>
+              <small>JavaScript, S3, Photoshop, HTML, CSS</small>
             </Card.Text>
           </Card.Body>
           <Card.Footer>

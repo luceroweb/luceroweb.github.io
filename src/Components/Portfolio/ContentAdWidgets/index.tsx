@@ -15,7 +15,7 @@ const JSadWidgets = () => {
           <strong>Status:</strong> JS ad widgets no longer active
         </p>
         <p>
-          <strong>Technologies:</strong> Vanilla JavaScript, Photoshop, HTML,
+          <strong>Technologies:</strong> JavaScript, AWS S3, Photoshop, HTML,
           CSS
         </p>
         <div style={{ maxWidth: "700px" }} className="mb-3">
