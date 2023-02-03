@@ -46,9 +46,29 @@ header strong {
 }
 
 .timeline section {
-  border-left: solid 5px rgb(var(--bs-primary));
   padding-bottom: 1em;
   background-color: rgba(var(--bs-secondary), 0.05);
+}
+
+.timeline section>* {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.timeline section:nth-child(odd) {
+  border-top-left-radius: 5px;
+  border-left: solid 5px rgb(var(--bs-primary));
+}
+
+.timeline section:nth-child(even) {
+  border-top-right-radius: 5px;
+  border-right: solid 5px rgb(var(--bs-primary));
+}
+
+.timeline section:last-child {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom: solid 5px rgb(var(--bs-primary));
 }
 
 .timeline h2 {
@@ -56,9 +76,16 @@ header strong {
   color: white;
 }
 
-.timeline section>* {
-  padding-left: 1em;
-  padding-right: 1em;
+.timeline section:first-child h2 {
+  border-top-right-radius: 5px;
+}
+
+.timeline section:nth-child(odd) h2 {
+  border-bottom-right-radius: 5px;
+}
+
+.timeline section:nth-child(even) h2 {
+  border-bottom-left-radius: 5px;
 }
 
 .card {
