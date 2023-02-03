@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.250c9350.css",
-    "main.js": "/static/js/main.1ea92049.js",
+    "main.css": "/static/css/main.d4743235.css",
+    "main.js": "/static/js/main.ae0a8459.js",
     "static/js/787.f2e25fa4.chunk.js": "/static/js/787.f2e25fa4.chunk.js",
     "static/media/tc1start.png": "/static/media/tc1start.aa4f7a882d70ecc247d5.png",
     "static/media/tc3trailer.png": "/static/media/tc3trailer.fb41a4c32d65b28c99aa.png",
+    "static/media/adlayout.gif": "/static/media/adlayout.76efe016cb76b664b838.gif",
     "static/media/meetinthemiddle1.jpg": "/static/media/meetinthemiddle1.4cb26fe9d77f839cac8d.jpg",
     "static/media/layout2open.jpg": "/static/media/layout2open.229754448180dd5ffefe.jpg",
     "static/media/layout2closed.jpg": "/static/media/layout2closed.211ae1ef96e4622fb25f.jpg",
@@ -15,6 +16,7 @@
     "static/media/layout_thumb.jpg": "/static/media/layout_thumb.279fecbf8e26d065abe0.jpg",
     "static/media/hh4gameover.png": "/static/media/hh4gameover.9a196fcbdb814ec88089.png",
     "static/media/tc4gameover.png": "/static/media/tc4gameover.f111f78da842fb7e3841.png",
+    "static/media/mobileslideup.jpeg": "/static/media/mobileslideup.2469b118111a0ab3de0a.jpeg",
     "static/media/meetinthemiddle2.jpg": "/static/media/meetinthemiddle2.7d6e2b95d9da898b1b19.jpg",
     "static/media/meetinthemiddle_thumb.jpg": "/static/media/meetinthemiddle_thumb.ba959a96d78ad73bc451.jpg",
     "static/media/tc0title.png": "/static/media/tc0title.7e03dd0b3963fca8ebb1.png",
@@ -27,8 +29,10 @@
     "static/media/smittcamp3_1.jpg": "/static/media/smittcamp3_1.475dd049df76081926bc.jpg",
     "static/media/smittcamp1.jpg": "/static/media/smittcamp1.2c426ff5c22b8afc6d0a.jpg",
     "static/media/usbfs.jpg": "/static/media/usbfs.1a58046c5d8e0694a8e1.jpg",
+    "static/media/screenshot-2.png": "/static/media/screenshot-2.408efce5fa6f814b6f34.png",
     "static/media/usbfront.jpg": "/static/media/usbfront.1ff13a5c4adfb793eb00.jpg",
     "static/media/aventage2.jpg": "/static/media/aventage2.0a5d57e6f18803a65d3d.jpg",
+    "static/media/exitpoplayout.gif": "/static/media/exitpoplayout.05987b34e88a5de1ccba.gif",
     "static/media/aventage1.jpg": "/static/media/aventage1.a64d322da1e560ee24b1.jpg",
     "static/media/usbonline.jpg": "/static/media/usbonline.736bb05e5446be8f4a5e.jpg",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
@@ -36,19 +40,22 @@
     "static/media/remotelive1.jpg": "/static/media/remotelive1.284617d2f95a59d62352.jpg",
     "static/media/remotelive4.jpg": "/static/media/remotelive4.04e5bd31e62b05f3acba.jpg",
     "static/media/karot2budget.png": "/static/media/karot2budget.cfffb96dd459651e7e46.png",
+    "static/media/screenshot-4.png": "/static/media/screenshot-4.1a639fccfbe2f4692e8a.png",
     "static/media/remotelive_thumb.jpg": "/static/media/remotelive_thumb.14f43c9d77393bec4539.jpg",
     "static/media/aventage_thumb.jpg": "/static/media/aventage_thumb.cc704c019f5b00751de8.jpg",
     "static/media/remotelive2.jpg": "/static/media/remotelive2.942f4d17199c74d3600b.jpg",
+    "static/media/screenshot-1.png": "/static/media/screenshot-1.869a06ee1269db90fa60.png",
     "static/media/usb_thumb.jpg": "/static/media/usb_thumb.5a1cf0c564ed066a136a.jpg",
     "static/media/smittcamp_thumb.jpg": "/static/media/smittcamp_thumb.95730cb9ac63674606ad.jpg",
     "static/media/face.jpg": "/static/media/face.a04258c4dc4f0306c486.jpg",
+    "static/media/screenshot-3.png": "/static/media/screenshot-3.a4487b4ed7a414450aa9.png",
     "index.html": "/index.html",
-    "main.250c9350.css.map": "/static/css/main.250c9350.css.map",
-    "main.1ea92049.js.map": "/static/js/main.1ea92049.js.map",
+    "main.d4743235.css.map": "/static/css/main.d4743235.css.map",
+    "main.ae0a8459.js.map": "/static/js/main.ae0a8459.js.map",
     "787.f2e25fa4.chunk.js.map": "/static/js/787.f2e25fa4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.250c9350.css",
-    "static/js/main.1ea92049.js"
+    "static/css/main.d4743235.css",
+    "static/js/main.ae0a8459.js"
   ]
 }
