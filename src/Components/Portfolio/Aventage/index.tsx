@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Carousel } from "react-bootstrap";
+import { Row, Col, Carousel, Badge } from "react-bootstrap";
 import aventage1 from "./aventage1.jpg";
 import aventage2 from "./aventage2.jpg";
 
@@ -12,7 +12,9 @@ const Aventage = () => {
           <strong>Status:</strong> Previous Site Design
         </p>
         <p>
-          <strong>Technologies:</strong> Flash, HTML, jQuery
+          <strong>Technologies:</strong> <Badge className="group9">Flash</Badge>{" "}
+          <Badge className="group3">HTML</Badge>{" "}
+          <Badge className="group4">jQuery</Badge>{" "}
         </p>
         <div style={{ maxWidth: "700px" }} className="mb-3">
           <Carousel fade variant="dark" className="mb-3">

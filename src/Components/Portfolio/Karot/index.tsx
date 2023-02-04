@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Carousel, Button } from "react-bootstrap";
+import { Row, Col, Carousel, Button, Badge } from "react-bootstrap";
 import karot1login from "./karot1login.png";
 import karot2budget from "./karot2budget.png";
 
@@ -12,8 +12,14 @@ const Karot = () => {
           <strong>Status:</strong> MVP Live
         </p>
         <p>
-          <strong>Technologies:</strong> Firebase, React-Native, Redux,
-          TypeScript, Axios, HTML, CSS
+          <strong>Technologies:</strong>{" "}
+          <Badge className="group7">Firebase Auth</Badge>{" "}
+          <Badge className="group5">React-Native</Badge>{" "}
+          <Badge className="group5">Redux</Badge>{" "}
+          <Badge className="group5">TypeScript</Badge>{" "}
+          <Badge className="group4">Axios</Badge>{" "}
+          <Badge className="group3">HTML</Badge>{" "}
+          <Badge className="group3">CSS</Badge>{" "}
         </p>
 
         <p>

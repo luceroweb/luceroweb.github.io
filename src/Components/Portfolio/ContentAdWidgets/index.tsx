@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Carousel } from "react-bootstrap";
+import { Row, Col, Carousel, Badge } from "react-bootstrap";
 import mobileslideup from "./mobileslideup.jpeg";
 import screenshot2 from "./screenshot-2.png";
 import screenshot4 from "./screenshot-4.png";
@@ -15,8 +15,12 @@ const JSadWidgets = () => {
           <strong>Status:</strong> JS ad widgets no longer active
         </p>
         <p>
-          <strong>Technologies:</strong> JavaScript, AWS S3, Photoshop, HTML,
-          CSS
+          <strong>Technologies:</strong>{" "}
+          <Badge className="group4">JavaScript</Badge>{" "}
+          <Badge className="group7">AWS S3</Badge>{" "}
+          <Badge className="group9">Photoshop</Badge>{" "}
+          <Badge className="group3">HTML</Badge>{" "}
+          <Badge className="group3">CSS</Badge>{" "}
         </p>
         <div style={{ maxWidth: "700px" }} className="mb-3">
           <Carousel fade variant="dark" className="mb-3">

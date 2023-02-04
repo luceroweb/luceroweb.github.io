@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Carousel } from "react-bootstrap";
+import { Row, Col, Carousel, Badge } from "react-bootstrap";
 import mm4e1 from "./meetinthemiddle1.jpg";
 import mm4e2 from "./meetinthemiddle2.jpg";
 import mm4e3 from "./meetinthemiddle3.jpg";
@@ -13,8 +13,14 @@ const MeetInTheMiddle4Equality = () => {
           <strong>Status:</strong> Past Event Site
         </p>
         <p>
-          <strong>Technologies:</strong> Joomla, Flash, PHP, SQL, HTML, CSS,
-          jQuery
+          <strong>Technologies:</strong>{" "}
+          <Badge className="group2">Joomla CMS</Badge>{" "}
+          <Badge className="group9">Flash</Badge>{" "}
+          <Badge className="group6">PHP</Badge>{" "}
+          <Badge className="group6">SQL</Badge>{" "}
+          <Badge className="group3">HTML</Badge>{" "}
+          <Badge className="group3">CSS</Badge>{" "}
+          <Badge className="group4">jQuery</Badge>{" "}
         </p>
         <div style={{ maxWidth: "700px" }} className="mb-3">
           <Carousel fade variant="dark" className="mb-3">

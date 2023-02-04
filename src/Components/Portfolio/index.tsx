@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Card, Button } from "react-bootstrap";
+import { Row, Col, Card, Button, Badge } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import wpplugin from "../Portfolio/ContentAdWordPressPlugin/screenshot-1.png";
 import jswidgets from "../Portfolio/ContentAdWidgets/mobileslideup.jpeg";
@@ -26,7 +26,10 @@ const Portfolio = () => {
             <Card.Title>Karot: Saving Smart.</Card.Title>
             <Card.Text>An envelope savings app</Card.Text>
             <Card.Text>
-              <small>Firebase, Native, Redux, TypeScript</small>
+              <Badge className="group7">FB Auth</Badge>{" "}
+              <Badge className="group5">Native</Badge>{" "}
+              <Badge className="group5">Redux</Badge>{" "}
+              <Badge className="group5">TypeScript</Badge>{" "}
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -61,7 +64,11 @@ const Portfolio = () => {
             <Card.Title>Trivia & Chill</Card.Title>
             <Card.Text>Movie Trivia Game</Card.Text>
             <Card.Text>
-              <small>React, Redux, Axios, HTML, CSS</small>
+              <Badge className="group5">React</Badge>{" "}
+              <Badge className="group5">Redux</Badge>{" "}
+              <Badge className="group4">Axios</Badge>{" "}
+              <Badge className="group3">HTML</Badge>{" "}
+              <Badge className="group3">CSS</Badge>{" "}
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -96,7 +103,9 @@ const Portfolio = () => {
             <Card.Title>Haunted House Game</Card.Title>
             <Card.Text>Choose your own adventure game.</Card.Text>
             <Card.Text>
-              <small>React, HTML, CSS</small>
+              <Badge className="group5">React</Badge>{" "}
+              <Badge className="group3">HTML</Badge>{" "}
+              <Badge className="group3">CSS</Badge>{" "}
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -131,7 +140,11 @@ const Portfolio = () => {
             <Card.Title>WordPress Plugin</Card.Title>
             <Card.Text>for Content.ad</Card.Text>
             <Card.Text>
-              <small>WordPress, PHP, HTML, CSS, jQuery</small>
+              <Badge className="group2">WordPress</Badge>{" "}
+              <Badge className="group6">PHP</Badge>{" "}
+              <Badge className="group3">HTML</Badge>{" "}
+              <Badge className="group3">CSS</Badge>{" "}
+              <Badge className="group4">jQuery</Badge>{" "}
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -166,7 +179,11 @@ const Portfolio = () => {
             <Card.Title>JavaScript Ad Widgets</Card.Title>
             <Card.Text>for Content.ad</Card.Text>
             <Card.Text>
-              <small>JavaScript, S3, Photoshop, HTML, CSS</small>
+              <Badge className="group4">JavaScript</Badge>{" "}
+              <Badge className="group7">S3</Badge>{" "}
+              <Badge className="group9">Photoshop</Badge>{" "}
+              <Badge className="group3">HTML</Badge>{" "}
+              <Badge className="group3">CSS</Badge>{" "}
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -185,7 +202,10 @@ const Portfolio = () => {
             <Card.Title>RemoteLive</Card.Title>
             <Card.Text>Your Disklavier plays along</Card.Text>
             <Card.Text>
-              <small>ASP, HTML, CSS, jQuery</small>
+              <Badge className="group2">.NET Frontend</Badge>{" "}
+              <Badge className="group3">HTML</Badge>{" "}
+              <Badge className="group3">CSS</Badge>{" "}
+              <Badge className="group4">jQuery</Badge>{" "}
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -204,7 +224,9 @@ const Portfolio = () => {
             <Card.Title>AVENTAGE</Card.Title>
             <Card.Text>Yamaha Receivers</Card.Text>
             <Card.Text>
-              <small>Flash, HTML, jQuery</small>
+              <Badge className="group9">Flash</Badge>{" "}
+              <Badge className="group3">HTML</Badge>{" "}
+              <Badge className="group4">jQuery</Badge>{" "}
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -223,7 +245,11 @@ const Portfolio = () => {
             <Card.Title>United Security Bank</Card.Title>
             <Card.Text>WordPress marketing site</Card.Text>
             <Card.Text>
-              <small>Joomla CMS, PHP, SQL, HTML, CSS</small>
+              <Badge className="group2">Joomla CMS</Badge>{" "}
+              <Badge className="group6">PHP</Badge>{" "}
+              <Badge className="group6">SQL</Badge>{" "}
+              <Badge className="group3">HTML</Badge>{" "}
+              <Badge className="group3">CSS</Badge>{" "}
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -246,7 +272,12 @@ const Portfolio = () => {
             <Card.Title>SAFE:</Card.Title>
             <Card.Text>Straight Advocates for Equality</Card.Text>
             <Card.Text>
-              <small>WordPress, PHP, MySQL, HTML, CSS, jQuery</small>
+              <Badge className="group2">WordPress</Badge>{" "}
+              <Badge className="group2">PHP</Badge>{" "}
+              <Badge className="group6">MySQL</Badge>{" "}
+              <Badge className="group3">HTML</Badge>{" "}
+              <Badge className="group3">CSS</Badge>{" "}
+              <Badge className="group4">jQuery</Badge>{" "}
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -268,7 +299,13 @@ const Portfolio = () => {
           <Card.Body>
             <Card.Title>Meet in the Middle 4 Equality</Card.Title>
             <Card.Text>
-              <small>Joomla, Flash, PHP, SQL, HTML, CSS, jQuery</small>
+              <Badge className="group2">Joomla CMS</Badge>{" "}
+              <Badge className="group9">Flash</Badge>{" "}
+              <Badge className="group6">PHP</Badge>{" "}
+              <Badge className="group6">SQL</Badge>{" "}
+              <Badge className="group3">HTML</Badge>{" "}
+              <Badge className="group3">CSS</Badge>{" "}
+              <Badge className="group4">jQuery</Badge>{" "}
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -289,7 +326,11 @@ const Portfolio = () => {
             <Card.Title>Smittcamp Family:</Card.Title>
             <Card.Text>CSU, Fresno Honors College</Card.Text>
             <Card.Text>
-              <small>Flash, Adobe Contribute, HTML, CSS, jQuery</small>
+              <Badge className="group9">Flash</Badge>{" "}
+              <Badge className="group9">Adobe Contribute</Badge>{" "}
+              <Badge className="group3">HTML</Badge>{" "}
+              <Badge className="group3">CSS</Badge>{" "}
+              <Badge className="group4">jQuery</Badge>{" "}
             </Card.Text>
           </Card.Body>
           <Card.Footer>

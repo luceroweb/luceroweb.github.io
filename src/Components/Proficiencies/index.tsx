@@ -140,6 +140,7 @@ const Proficiencies = () => {
             <Card.Text>
               <Badge className="group7">S3</Badge>{" "}
               <Badge className="group7">Lambda</Badge>{" "}
+              <Badge className="group7">Firebase Authentication</Badge>{" "}
             </Card.Text>
           </Card.Body>
         </Card>

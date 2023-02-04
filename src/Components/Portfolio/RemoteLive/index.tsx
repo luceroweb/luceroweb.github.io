@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Carousel } from "react-bootstrap";
+import { Row, Col, Carousel, Badge } from "react-bootstrap";
 import remotelive1 from "./remotelive1.jpg";
 import remotelive2 from "./remotelive2.jpg";
 import remotelive3 from "./remotelive3.jpg";
@@ -15,8 +15,11 @@ const RemoteLive = () => {
           <strong>Status:</strong> Previous Site Design
         </p>
         <p>
-          <strong>Technologies:</strong> ASP, .NET environment, HTML, CSS,
-          jQuery
+          <strong>Technologies:</strong>{" "}
+          <Badge className="group2">.NET Frontend</Badge>{" "}
+          <Badge className="group3">HTML</Badge>{" "}
+          <Badge className="group3">CSS</Badge>{" "}
+          <Badge className="group4">jQuery</Badge>{" "}
         </p>
         <div style={{ maxWidth: "700px" }} className="mb-3">
           <Carousel fade variant="dark" className="mb-3">

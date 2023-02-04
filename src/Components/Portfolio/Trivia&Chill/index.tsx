@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Carousel, Button } from "react-bootstrap";
+import { Row, Col, Carousel, Button, Badge } from "react-bootstrap";
 import tc0title from "./tc0title.png";
 import tc1Intro from "./tc1start.png";
 import tc2Question from "./tc2question.png";
@@ -15,7 +15,11 @@ const TriviaChill = () => {
           <strong>Status:</strong> Live
         </p>
         <p>
-          <strong>Technologies:</strong> React,Redux, Axios, HTML, CSS
+          <strong>Technologies:</strong> <Badge className="group5">React</Badge>{" "}
+          <Badge className="group5">Redux Toolkit</Badge>{" "}
+          <Badge className="group4">Axios</Badge>{" "}
+          <Badge className="group3">HTML</Badge>{" "}
+          <Badge className="group3">CSS</Badge>{" "}
         </p>
 
         <p>

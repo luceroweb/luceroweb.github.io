@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Carousel, Button } from "react-bootstrap";
+import { Row, Col, Carousel, Button, Badge } from "react-bootstrap";
 import hh1Intro from "./hh1intro.png";
 import hh2Room from "./hh2room.png";
 import hh3Correct from "./hh3correct.png";
@@ -16,7 +16,11 @@ const HauntedHouse = () => {
           <strong>Status:</strong> Live
         </p>
         <p>
-          <strong>Technologies:</strong> React, HTML, CSS, audio/video
+          <strong>Technologies:</strong> <Badge className="group5">React</Badge>{" "}
+          <Badge className="group3">HTML</Badge>{" "}
+          <Badge className="group3">CSS</Badge>{" "}
+          <Badge className="group3">Audio</Badge>{" "}
+          <Badge className="group3">Video</Badge>{" "}
         </p>
 
         <p>

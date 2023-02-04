@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Carousel } from "react-bootstrap";
+import { Row, Col, Carousel, Badge } from "react-bootstrap";
 import screenshot1 from "./screenshot-1.png";
 import screenshot2 from "./screenshot-2.png";
 import screenshot3 from "./screenshot-3.png";
@@ -14,7 +14,12 @@ const WPPlugin = () => {
           <strong>Status:</strong> Plugin no longer supported
         </p>
         <p>
-          <strong>Technologies:</strong> WordPress, PHP, HTML, CSS, jQuery
+          <strong>Technologies:</strong>{" "}
+          <Badge className="group2">WordPress</Badge>{" "}
+          <Badge className="group6">PHP</Badge>{" "}
+          <Badge className="group3">HTML</Badge>{" "}
+          <Badge className="group3">CSS</Badge>{" "}
+          <Badge className="group4">jQuery</Badge>{" "}
         </p>
         <div style={{ maxWidth: "700px" }} className="mb-3">
           <Carousel fade variant="dark" className="mb-3">
