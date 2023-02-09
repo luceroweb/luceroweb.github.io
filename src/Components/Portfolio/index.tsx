@@ -1,8 +1,8 @@
 import React from "react";
 import { Row, Col, Card, Button, Badge } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import wpplugin from "../Portfolio/ContentAdWordPressPlugin/screenshot-1.png";
-import jswidgets from "../Portfolio/ContentAdWidgets/mobileslideup.jpeg";
+import wpplugin from "./ContentAdWordPressPlugin/screenshot-1.png";
+import jswidgets from "./ContentAdWidgets/mobileslideup.jpeg";
 import remotelive from "./RemoteLive/remotelive_thumb.jpg";
 import aventage from "./Aventage/aventage_thumb.jpg";
 import usb from "./UnitedSecurityBank/usb_thumb.jpg";
