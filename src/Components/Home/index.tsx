@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Button, Card, Badge } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import face from "../../images/face.jpg";
+import face from "./face.jpg";
 import jswidgets from "../Portfolio/ContentAdWidgets/mobileslideup.jpeg";
 import wpplugin from "../Portfolio/ContentAdWordPressPlugin/screenshot-1.png";
 import remotelive from "../Portfolio/RemoteLive/remotelive_thumb.jpg";
