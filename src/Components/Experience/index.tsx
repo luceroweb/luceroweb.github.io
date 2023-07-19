@@ -21,7 +21,8 @@ const Experience = () => {
                 AlphaWorks/Bitwise | <strong>Apprentice Lead (Manager)</strong>
               </h3>
               <p>
-                React/React-Native lead for React MVPs and Caffeine Overflow.
+                Trained 36 apprentices across 3 apprenticeships in
+                React/React-Native.
               </p>
               <ul>
                 <li>

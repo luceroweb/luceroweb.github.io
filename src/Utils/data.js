@@ -283,7 +283,7 @@ const jobs = [
     organization: "AlphaWorks/Bitwise",
     location: "Fresno, CA",
     description:
-      "React/React-Native lead for React MVPs and Caffeine Overflow.",
+      "Trained 36 apprentices across 3 apprenticeships in React/React-Native.",
     responsibilities: [
       "React & Native w/ TypeScript collaborative project hands on training",
       "Provided remote instruction focusing on collaborative team building",
