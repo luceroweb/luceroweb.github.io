@@ -57,6 +57,28 @@ const Home = () => {
         </div>
       </Col>
       <Col className="timeline mt-3">
+        <section aria-labelledby="dutchbros">
+          <h2 id="dutchbros">2023 – 2023</h2>
+          <div>
+            <h3>
+              <i className="bi bi-geo-alt-fill"></i> Fresno, CA/Grants Pass, OR
+            </h3>
+            <h3>
+              Dutch Bros Coffee | <strong>Senior Full Stack Developer</strong>
+            </h3>
+            <p>Worked with development team to harden internal admin Portal</p>
+            <ul>
+              <li>
+                Rapidly triage and write bug/enhancement tickets for quick
+                resolution
+              </li>
+              <li>
+                Meet defined milestones in developing enterprise Python/Vue apps
+              </li>
+              <li>Mentor, provide tech expertise to fellow app devs</li>
+            </ul>
+          </div>
+        </section>
         <section aria-labelledby="alphaworks">
           <h2 id="alphaworks">2021 – 2023</h2>
           <div>
