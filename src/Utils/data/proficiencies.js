@@ -1,7 +1,6 @@
 const proficiencies = {
   management: {
     title: "Management",
-    shortTitle: "Managmenet",
     values: {
       manager: {
         title: "Manager",
@@ -225,5 +224,23 @@ const proficiencies = {
     },
   },
 };
+
+const defineClassName = (group, className) => {
+  proficiencies[group].class = className;
+  const values = proficiencies[group].values;
+  Object.keys(values).forEach((key) => {
+    values[key].class = className;
+  });
+};
+
+defineClassName("management", "group1");
+defineClassName("fundamentals", "group3");
+defineClassName("javascript", "group4");
+defineClassName("frontend", "group5");
+defineClassName("backend", "group6");
+defineClassName("serverless", "group7");
+defineClassName("operatingSystems", "group8");
+defineClassName("uiux", "group9");
+defineClassName("devTools", "group10");
 
 export default proficiencies;

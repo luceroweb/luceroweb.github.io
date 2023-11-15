@@ -3,10 +3,12 @@ import proficiencies from "./proficiencies";
 const techStacks = {
   title: "Technology Stacks",
   shortTitle: "Tech Stacks",
+  class: "group2",
   values: {
     mern: {
       title: "MERN Stack",
       shortTitle: "MERN",
+      class: "group2",
       technologies: [
         proficiencies.backend.values.mongo,
         proficiencies.backend.values.express,
@@ -21,6 +23,7 @@ const techStacks = {
     lamp: {
       title: "WordPress LAMP Stack",
       shortTitle: "LAMP",
+      class: "group2",
       technologies: [
         proficiencies.backend.values.php,
         proficiencies.backend.values.mysql,
@@ -33,6 +36,7 @@ const techStacks = {
     },
     dotnet: {
       title: ".NET",
+      class: "group2",
       technologies: [
         proficiencies.backend.sql,
         proficiencies.fundamentals.html,
