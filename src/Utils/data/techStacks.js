@@ -16,8 +16,9 @@ const techStacks = {
         proficiencies.javascript.javascript,
       ],
     },
-    wordpress: {
-      title: "WordPress",
+    lamp: {
+      title: "WordPress LAMP Stack",
+      shortTitle: "LAMP",
       technologies: [
         proficiencies.backend.php,
         proficiencies.backend.mysql,
@@ -40,6 +41,8 @@ const techStacks = {
     },
     joomla: {
       title: "Joomla CMS",
+      shortTitle: "Joomla",
+      class: "group2",
       deprecated: true,
       technologies: [
         proficiencies.backend.php,

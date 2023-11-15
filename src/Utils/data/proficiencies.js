@@ -11,7 +11,7 @@ const proficiencies = {
         shortTitle: "Lead",
       },
       agile: {
-        title: "Agile Methodolofies",
+        title: "Agile Methodologies",
         shortTitle: "Agile",
       },
       scrumMaster: {
@@ -77,6 +77,7 @@ const proficiencies = {
       },
       typescript: {
         title: "TypeScript",
+        shortTitle: "TS",
       },
       redux: {
         title: "Redux Toolkit",
@@ -190,6 +191,7 @@ const proficiencies = {
       },
       contribute: {
         title: "Adobe Contribute",
+        shortTitle: "Contribute",
         deprecated: true,
       },
     },
