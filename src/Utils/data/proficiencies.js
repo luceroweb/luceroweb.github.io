@@ -225,6 +225,18 @@ const proficiencies = {
   },
 };
 
+const groupClassNames = [
+  { group: "management", className: "group1" },
+  { group: "fundamentals", className: "group3" },
+  { group: "javascript", className: "group4" },
+  { group: "frontend", className: "group5" },
+  { group: "backend", className: "group6" },
+  { group: "serverless", className: "group7" },
+  { group: "operatingSystems", className: "group8" },
+  { group: "uiux", className: "group9" },
+  { group: "devTools", className: "group10" },
+];
+
 const defineClassName = (group, className) => {
   proficiencies[group].class = className;
   const values = proficiencies[group].values;
@@ -233,14 +245,11 @@ const defineClassName = (group, className) => {
   });
 };
 
-defineClassName("management", "group1");
-defineClassName("fundamentals", "group3");
-defineClassName("javascript", "group4");
-defineClassName("frontend", "group5");
-defineClassName("backend", "group6");
-defineClassName("serverless", "group7");
-defineClassName("operatingSystems", "group8");
-defineClassName("uiux", "group9");
-defineClassName("devTools", "group10");
+const setGroupClassNames = () => {
+  groupClassNames.map((group) => {
+    defineClassName(group.group, group.className);
+  });
+};
+setGroupClassNames();
 
 export default proficiencies;
