@@ -34,7 +34,7 @@ const ProjectCard = ({ project }) => {
             href={project.code}
             rel="noreferrer"
             target="_blank"
-            className="m-1"
+            className="d-inline-block m-1"
           >
             <Button>
               <i
