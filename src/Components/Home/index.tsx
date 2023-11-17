@@ -129,7 +129,7 @@ const Home = () => {
                     href="https://karot-saving-smart.netlify.app/"
                     rel="noreferrer"
                     target="_blank"
-                    className="m-1"
+                    className="d-inline-block m-1"
                   >
                     <Button>App</Button>
                   </a>
@@ -137,13 +137,16 @@ const Home = () => {
                     href="https://github.com/luceroweb/karot-saving-smart"
                     rel="noreferrer"
                     target="_blank"
-                    className="m-1"
+                    className="d-inline-block m-1"
                   >
                     <Button>
                       <i className="bi bi-github"></i> Code
                     </Button>
                   </a>
-                  <Link to="/portfolio/karotsavingsmart" className="m-1">
+                  <Link
+                    to="/portfolio/karotsavingsmart"
+                    className="d-inline-block m-1"
+                  >
                     <Button>Details</Button>
                   </Link>
                 </Card.Footer>
@@ -172,7 +175,7 @@ const Home = () => {
                     href="https://luceroweb.github.io/trivia-and-chill/"
                     rel="noreferrer"
                     target="_blank"
-                    className="m-1"
+                    className="d-inline-block m-1"
                   >
                     <Button>App</Button>
                   </a>
@@ -180,13 +183,16 @@ const Home = () => {
                     href="https://github.com/luceroweb/trivia-and-chill"
                     rel="noreferrer"
                     target="_blank"
-                    className="m-1"
+                    className="d-inline-block m-1"
                   >
                     <Button>
                       <i className="bi bi-github"></i> Code
                     </Button>
                   </a>
-                  <Link to="/portfolio/triviachill" className="m-1">
+                  <Link
+                    to="/portfolio/triviachill"
+                    className="d-inline-block m-1"
+                  >
                     <Button>Details</Button>
                   </Link>
                 </Card.Footer>
@@ -213,7 +219,7 @@ const Home = () => {
                     href="https://luceroweb.github.io/haunted-house-game"
                     rel="noreferrer"
                     target="_blank"
-                    className="m-1"
+                    className="d-inline-block m-1"
                   >
                     <Button>App</Button>
                   </a>
@@ -221,7 +227,7 @@ const Home = () => {
                     href="https://github.com/luceroweb/haunted-house-game"
                     rel="noreferrer"
                     target="_blank"
-                    className="m-1"
+                    className="d-inline-block m-1"
                   >
                     <Button>
                       <i className="bi bi-github"></i> Code
@@ -290,7 +296,7 @@ const Home = () => {
                     href="https://wordpress.org/plugins/contentad/"
                     rel="noreferrer"
                     target="_blank"
-                    className="m-1"
+                    className="d-inline-block m-1"
                   >
                     <Button>Plugin</Button>
                   </a>
@@ -298,13 +304,16 @@ const Home = () => {
                     href="https://plugins.trac.wordpress.org/browser/contentad/"
                     rel="noreferrer"
                     target="_blank"
-                    className="m-1"
+                    className="d-inline-block m-1"
                   >
                     <Button>
                       <i className="bi bi-wordpress"></i> Code
                     </Button>
                   </a>
-                  <Link to="/portfolio/wordpressplugin" className="m-1">
+                  <Link
+                    to="/portfolio/wordpressplugin"
+                    className="d-inline-block m-1"
+                  >
                     <Button>Details</Button>
                   </Link>
                 </Card.Footer>
@@ -329,7 +338,10 @@ const Home = () => {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Link to="/portfolio/javascriptadwidgets" className="m-1">
+                  <Link
+                    to="/portfolio/javascriptadwidgets"
+                    className="d-inline-block m-1"
+                  >
                     <Button>Details</Button>
                   </Link>
                 </Card.Footer>
