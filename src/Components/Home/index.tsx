@@ -21,7 +21,7 @@ const Home = () => {
         <img src={face} alt="" className="profile rounded" />
       </Col>
       <Col sm={6} md={8}>
-        <h1 className="fs-5">
+        <h1 className="fs-4">
           22 years moving user focused businesses forward
         </h1>
         <p>

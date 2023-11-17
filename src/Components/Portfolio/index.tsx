@@ -13,7 +13,7 @@ const Portfolio = () => {
   return (
     <Row>
       <Col xs={12}>
-        <h1>Portfolio</h1>
+        <h1 className="fs-4">Portfolio</h1>
       </Col>
       {listProjects}
     </Row>

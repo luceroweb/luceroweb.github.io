@@ -15,7 +15,7 @@ const Proficiencies = () => {
   return (
     <Row>
       <Col xs={12}>
-        <h1 className="fs-5">Proficiencies</h1>
+        <h1 className="fs-4">Proficiencies</h1>
       </Col>
 
       <Col className="mb-5 d-flex justify-content-center">
