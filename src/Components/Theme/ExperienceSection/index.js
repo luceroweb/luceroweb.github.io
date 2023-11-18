@@ -2,8 +2,7 @@ const ExperienceSection = ({ job }) => {
   return (
     <section aria-labelledby={job.slug}>
       <h2 id={job.slug}>
-        {new Date(job.start_date).getFullYear()} –{" "}
-        {new Date(job.end_date).getFullYear()}
+        {job.start_date.getFullYear()} – {job.end_date.getFullYear()}
       </h2>
       <div>
         <h3>
@@ -14,8 +13,8 @@ const ExperienceSection = ({ job }) => {
         </h3>
         <p>{job.description}</p>
         <ul>
-          {job.responsibilities.map((responsibility) => (
-            <li>{responsibility}</li>
+          {job.responsibilities.forEach((responsibility, i) => (
+            <li key={i}>{responsibility}</li>
           ))}
         </ul>
       </div>
