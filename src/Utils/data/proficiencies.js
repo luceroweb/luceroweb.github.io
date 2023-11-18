@@ -246,7 +246,7 @@ const defineClassName = (group, className) => {
 };
 
 const setGroupClassNames = () => {
-  groupClassNames.map((group) => {
+  groupClassNames.forEach((group) => {
     defineClassName(group.group, group.className);
   });
 };
