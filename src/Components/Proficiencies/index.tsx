@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Card, Badge } from "react-bootstrap";
-import { techStacks, proficiencies } from "../../Utils/data";
+import { proficiencies } from "../../Utils/data";
 import TechCard from "../Theme/TechCard";
 
 const Proficiencies = () => {
