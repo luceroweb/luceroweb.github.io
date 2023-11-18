@@ -13,8 +13,8 @@ const ExperienceSection = ({ job }) => {
         </h3>
         <p>{job.description}</p>
         <ul>
-          {job.responsibilities.forEach((responsibility, i) => (
-            <li key={i}>{responsibility}</li>
+          {job.responsibilities.map((responsibility, index) => (
+            <li key={index}>{responsibility}</li>
           ))}
         </ul>
       </div>
