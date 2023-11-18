@@ -5,7 +5,7 @@ const experience = [
     end_date: "November 2023",
     title: "Senior Full Stack Developer",
     organization: "Dutch Bros Coffee",
-    location: ["Fresno, CA", "Grants Pass, OR"],
+    location: "Fresno, CA & Grants Pass, OR",
     description: "Worked with development team to harden internal admin Portal",
     responsibilities: [
       "Rapidly triage and write bug/enhancement tickets for quick resolution",
@@ -23,9 +23,28 @@ const experience = [
     description:
       "Trained 36 apprentices across 3 apprenticeships in React/React-Native.",
     responsibilities: [
-      "<strong>React & Native w/ TypeScript</strong> collaborative project <strong>hands on training</strong>",
-      "Provided <strong>remote instruction</strong> focusing on <strong>collaborative</strong> team building",
-      "Trained: <strong>HTML/CSS/JS</strong>, <strong>Agile Methodology</strong>, <strong>gitHub</strong>, <strong>debugging</strong>",
+      [
+        <strong>React & Native w/ TypeScript</strong>,
+        " collaborative project ",
+        <strong>hands on training</strong>,
+      ],
+      [
+        "Provided ",
+        <strong>remote instruction</strong>,
+        " focusing on ",
+        <strong>collaborative</strong>,
+        " team building",
+      ],
+      [
+        "Trained: ",
+        <strong>HTML/CSS/JS</strong>,
+        ", ",
+        <strong>Agile Methodology</strong>,
+        ", ",
+        <strong>gitHub</strong>,
+        ", ",
+        <strong>debugging</strong>,
+      ],
     ],
   },
   {
@@ -38,9 +57,16 @@ const experience = [
     description:
       "Helped build/maintain digital ad network serving 1 billion+ impressions/day.",
     responsibilities: [
-      "<strong>Scrum Master</strong> for company Portal.",
-      "<strong>React development</strong> for internal users, advertisers, and publishers",
-      "Maintained & extended <strong>HTML/CSS/JS</strong> ad layouts & animations",
+      [<strong>Scrum Master</strong>, " for company Portal."],
+      [
+        <strong>React development</strong>,
+        " for internal users, advertisers, and publishers",
+      ],
+      [
+        "Maintained & extended ",
+        <strong>HTML/CSS/JS</strong>,
+        " ad layouts & animations",
+      ],
       "Maintained high traffic WP sites plus primary marketing site & WP Plugin",
     ],
   },
@@ -51,11 +77,36 @@ const experience = [
     title: "Front End Web Developer",
     organization: "Experian Consumer Direct",
     location: "Costa Mesa, CA",
-    description: `Helped build <strong>Experian's <a href="https://FreeCreditReport.com" rel="noreferrer" target="_blank">FreeCreditReport.com</a> / <a href="https://FreeCreditScore.com" rel="noreferrer" target="_blank">FreeCreditScore.com</a></strong> white label sites for corporate clients.`,
+    description: [
+      "Helped build ",
+      <strong>
+        Experian's{" "}
+        <a href="https://FreeCreditReport.com" rel="noreferrer" target="_blank">
+          FreeCreditReport.com
+        </a>{" "}
+        /{" "}
+        <a href="https://FreeCreditScore.com" rel="noreferrer" target="_blank">
+          FreeCreditScore.com
+        </a>
+      </strong>,
+      " white label sites for corporate clients.",
+    ],
     responsibilities: [
-      "<strong>Web Accessibility Expert</strong> for Experian's client, <strong>Wells Fargo</strong>",
-      "Utilized <strong>Visual Studio with git</strong>, and Tridion CMS among others.",
-      "<strong>Bootstrap Expert</strong> for <strong>USAA's Angular Credit Check products</strong>",
+      [
+        <strong>Web Accessibility Expert</strong>,
+        " for Experian's client, ",
+        <strong>Wells Fargo</strong>,
+      ],
+      [
+        "Utilized ",
+        <strong>Visual Studio with git</strong>,
+        " and Tridion CMS among others.",
+      ],
+      [
+        <strong>Bootstrap Expert</strong>,
+        " for ",
+        <strong>USAA's Angular Credit Check products</strong>,
+      ],
     ],
   },
   {
@@ -68,9 +119,21 @@ const experience = [
     location: "Buena Park, CA",
     description: "Developed promo sites using <strong>HTML/CSS/jQuery</strong>",
     responsibilities: [
-      "Developed live &amp; pre-recorded <strong>video and slideshow galleries</strong>",
-      `Aided <a href="https://usa.yamaha.com" rel="noreferrer" target="_blank">Yamaha Corporation of America</a> redesign/migration`,
-      "Direct internal client communication to <strong>manage dev team in India</strong>",
+      [
+        "Developed live & pre-recorded ",
+        <strong>video and slideshow galleries</strong>,
+      ],
+      [
+        "Aided ",
+        <a href="https://usa.yamaha.com" rel="noreferrer" target="_blank">
+          Yamaha Corporation of America
+        </a>,
+        " redesign/migration",
+      ],
+      [
+        "Direct internal client communication to ",
+        <strong>manage dev team in India</strong>,
+      ],
     ],
   },
   {
@@ -83,7 +146,12 @@ const experience = [
     description:
       "Tight knit print and web family; building projects for education, business and nonprofit.",
     responsibilities: [
-      "Created, debugged, maintained exciting <strong>WordPress</strong> sites using <strong>PHP/MySQL/HTML/CSS/jQuery</strong>",
+      [
+        "Created, debugged, maintained exciting ",
+        <strong>WordPress</strong>,
+        " sites using ",
+        <strong>PHP/MySQL/HTML/CSS/jQuery</strong>,
+      ],
       "Trained clients remotely on use of WordPress",
     ],
   },
@@ -95,9 +163,19 @@ const experience = [
     organization: "NetPas, inc.",
     location: "Fresno, CA",
     responsibilities: [
-      "<strong>Sole web developer</strong> for company and direct client communication: nonprofits, higher education, agriculture and small businesses",
-      "Extended <strong>ASP/SQL</strong> CMS: reporting, case &amp; customer management",
-      "<strong>Collaborated with sales on concept/design</strong> of client projects &amp; print",
+      [
+        <strong>Sole web developer</strong>,
+        " for company and direct client communication: nonprofits, higher education, agriculture and small businesses",
+      ],
+      [
+        "Extended ",
+        <strong>ASP/SQL</strong>,
+        " CMS: reporting, case & customer management",
+      ],
+      [
+        <strong>Collaborated with sales on concept/design</strong>,
+        " of client projects & print",
+      ],
     ],
   },
   {
@@ -110,7 +188,10 @@ const experience = [
     responsibilities: [
       "Owned/operated full service design & maintenance: nonprofit, higher education and small businesses",
       "Managed consultants",
-      "<strong>CSU, Fresno: PHP/MySQL</strong> phone directory, class requirements site",
+      [
+        <strong>CSU, Fresno: PHP/MySQL</strong>,
+        " phone directory, class requirements site",
+      ],
     ],
   },
   {
@@ -121,7 +202,13 @@ const experience = [
     organization: "CSU, Fresno",
     location: "Fresno, CA",
     responsibilities: [
-      "Design/manage/maintain integral university sites: <strong>Web accessibility guidelines, primary site</strong>, Fresno State News, University Journal, <strong>Phone Directory, Site Index</strong>, and directed contact page inquiries",
+      [
+        "Design/manage/maintain integral university sites: ",
+        <strong>Web accessibility guidelines, primary site</strong>,
+        ", Fresno State News, University Journal, ",
+        <strong>Phone Directory, Site Index</strong>,
+        " and directed contact page inquiries",
+      ],
       "Trained students/faculty/administrators on policy, templates, and guidelines",
     ],
   },
