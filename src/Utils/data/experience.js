@@ -1,8 +1,8 @@
 const experience = [
   {
     slug: "dutchbros",
-    start_date: "August 2023",
-    end_date: "November 2023",
+    start_date: new Date("August 2023"),
+    end_date: new Date("November 2023"),
     title: "Senior Full Stack Developer",
     organization: "Dutch Bros Coffee",
     location: "Fresno, CA & Grants Pass, OR",
@@ -15,8 +15,8 @@ const experience = [
   },
   {
     slug: "alphaworks",
-    start_date: "September 2021",
-    end_date: "May 2023",
+    start_date: new Date("September 2021"),
+    end_date: new Date("May 2023"),
     title: "Apprentice Lead (Manager)",
     organization: "AlphaWorks/Bitwise",
     location: "Fresno, CA",
@@ -49,8 +49,8 @@ const experience = [
   },
   {
     slug: "content-ad",
-    start_date: "October 2015",
-    end_date: "August 2021",
+    start_date: new Date("October 2015"),
+    end_date: new Date("August 2021"),
     title: "Front End Web Developer",
     organization: "Content.ad",
     location: "Irvine, CA",
@@ -72,8 +72,8 @@ const experience = [
   },
   {
     slug: "experian",
-    start_date: "December 2012",
-    end_date: "June 2015",
+    start_date: new Date("December 2012"),
+    end_date: new Date("June 2015"),
     title: "Front End Web Developer",
     organization: "Experian Consumer Direct",
     location: "Costa Mesa, CA",
@@ -111,13 +111,16 @@ const experience = [
   },
   {
     slug: "yamaha",
-    start_date: "June 2009",
-    end_date: "December 2012",
+    start_date: new Date("June 2009"),
+    end_date: new Date("December 2012"),
     title: "Front End Web Developer Lead",
     organization: "Yamaha Corporation of America",
     ortanization_nickname: "Yamaha",
     location: "Buena Park, CA",
-    description: "Developed promo sites using <strong>HTML/CSS/jQuery</strong>",
+    description: [
+      "Developed promo sites using ",
+      <strong>HTML/CSS/jQuery</strong>,
+    ],
     responsibilities: [
       [
         "Developed live & pre-recorded ",
@@ -138,8 +141,8 @@ const experience = [
   },
   {
     slug: "edesign",
-    start_date: "October 2007",
-    end_date: "February 2009",
+    start_date: new Date("October 2007"),
+    end_date: new Date("February 2009"),
     title: "Web Architect",
     organization: "e:Design, inc.",
     location: "Fresno, CA",
@@ -157,8 +160,8 @@ const experience = [
   },
   {
     slug: "netpas",
-    start_date: "April 2005",
-    end_date: "October 2007",
+    start_date: new Date("April 2005"),
+    end_date: new Date("October 2007"),
     title: "Web Designer",
     organization: "NetPas, inc.",
     location: "Fresno, CA",
@@ -180,8 +183,8 @@ const experience = [
   },
   {
     slug: "lucerowebdesign",
-    start_date: "May 2004",
-    end_date: "April 2005",
+    start_date: new Date("May 2004"),
+    end_date: new Date("April 2005"),
     title: "Owner",
     organization: "Lucero Web Design",
     location: "Fresno, CA",
@@ -196,8 +199,8 @@ const experience = [
   },
   {
     slug: "csufresno",
-    start_date: "August 2001",
-    end_date: "May 2004",
+    start_date: new Date("August 2001"),
+    end_date: new Date("May 2004"),
     title: "Assistant Web Manager",
     organization: "CSU, Fresno",
     location: "Fresno, CA",

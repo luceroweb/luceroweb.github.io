@@ -4,8 +4,8 @@ import { experience } from "../../Utils/data";
 import ExperienceSection from "../Theme/ExperienceSection";
 
 const Experience = () => {
-  const jobList = experience.map((job, index) => (
-    <ExperienceSection job={job} key={index} />
+  const jobList = experience.map((job) => (
+    <ExperienceSection job={job} key={job.slug} />
   ));
   return (
     <>
