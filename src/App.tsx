@@ -17,7 +17,7 @@ import UnitedSecurityBank from "./Components/Portfolio/UnitedSecurityBank";
 import Smittcamp from "./Components/Portfolio/Smittcamp";
 import MeetInTheMiddle4Equality from "./Components/Portfolio/MeetInTheMiddle4Equality";
 import Contact from "./Components/Contact";
-import Proficiencies from "./Components/Proficiencies";
+import Skills from "./Components/Skills";
 import { Container } from "react-bootstrap";
 import SAFE from "./Components/Portfolio/StraightAdvocatesForEquality";
 
@@ -30,7 +30,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/experience" element={<Experience />} />
-            <Route path="/proficiencies" element={<Proficiencies />} />
+            <Route path="/skills" element={<Skills />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/portfolio/karotsavingsmart" element={<Karot />} />
             <Route path="/portfolio/triviachill" element={<TriviaChill />} />

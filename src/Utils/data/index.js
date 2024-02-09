@@ -1,6 +1,6 @@
-import proficiencies from "./proficiencies";
-import techStacks from "./techStacks";
+import skills from "./skills";
+import techStacks from "./techStacks.tx";
 import experience from "./experience";
 import projects from "./projects";
 
-export { proficiencies, techStacks, experience, projects };
+export { skills, techStacks, experience, projects };

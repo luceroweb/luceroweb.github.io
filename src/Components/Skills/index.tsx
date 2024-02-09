@@ -1,10 +1,10 @@
 import React from "react";
 import { Row, Col, Card, Badge } from "react-bootstrap";
-import { proficiencies } from "../../Utils/data";
+import { skills } from "../../Utils/data";
 import TechCard from "../Theme/TechCard";
 
-const Proficiencies = () => {
-  const listProficiencies = Object.values(proficiencies).map(
+const Skills = () => {
+  const listSkills = Object.values(skills).map(
     (group: Object, index: React.Key) => (
       <Col className="mb-5 d-flex justify-content-center" key={index}>
         <TechCard techGroup={group} />
@@ -15,7 +15,7 @@ const Proficiencies = () => {
   return (
     <Row>
       <Col xs={12}>
-        <h1 className="fs-4">Proficiencies</h1>
+        <h1 className="fs-4">Skills</h1>
       </Col>
 
       <Col className="mb-5 d-flex justify-content-center">
@@ -55,9 +55,9 @@ const Proficiencies = () => {
         </Card>
       </Col>
 
-      {listProficiencies}
+      {listSkills}
     </Row>
   );
 };
 
-export default Proficiencies;
+export default Skills;

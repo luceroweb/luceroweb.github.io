@@ -1,4 +1,4 @@
-const proficiencies = {
+const skills = {
   management: {
     title: "Management",
     values: {
@@ -238,8 +238,8 @@ const groupClassNames = [
 ];
 
 const defineClassName = (group, className) => {
-  proficiencies[group].class = className;
-  const values = proficiencies[group].values;
+  skills[group].class = className;
+  const values = skills[group].values;
   Object.keys(values).forEach((key) => {
     values[key].class = className;
   });
@@ -252,4 +252,4 @@ const setGroupClassNames = () => {
 };
 setGroupClassNames();
 
-export default proficiencies;
+export default skills;

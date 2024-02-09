@@ -45,11 +45,11 @@ const Header = () => {
                 Portfolio
               </Link>
               <Link
-                to="/proficiencies"
+                to="/skills"
                 className="nav-link"
                 onClick={() => setExpanded(false)}
               >
-                Proficiencies
+                Skills
               </Link>
               <Link
                 to="/contact"
