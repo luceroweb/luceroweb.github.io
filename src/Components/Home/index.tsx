@@ -61,7 +61,8 @@ const Home = () => {
           <h2 id="dutchbros">2023 – 2023</h2>
           <div>
             <h3>
-              <i className="bi bi-geo-alt-fill"></i> Fresno, CA/Grants Pass, OR
+              <i className="bi bi-geo-alt-fill"></i> Fresno, CA/Grants Pass, OR{" "}
+              <span className="text-secondary">(Hybrid Remote)</span>
             </h3>
             <h3>
               Dutch Bros Coffee | <strong>Senior Full Stack Developer</strong>
@@ -401,10 +402,11 @@ const Home = () => {
           <h2 id="yamaha">2009 – 2012</h2>
           <div>
             <h3>
-              <i className="bi bi-geo-alt-fill"></i> Buena Park, CA
+              <i className="bi bi-geo-alt-fill"></i> Buena Park, CA (Onsite) &
+              Mumbai, India (Remote)
             </h3>
             <h3>
-              Yamaha | <strong>Front End Web Developer Lead</strong>
+              Yamaha | <strong>Front End Web Developer Onsite Lead</strong>
             </h3>
             <p>
               Developed promo sites using <strong>HTML/CSS/jQuery</strong>

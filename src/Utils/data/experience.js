@@ -5,7 +5,7 @@ const experience = [
     end_date: new Date("November 2023"),
     title: "Senior Full Stack Developer",
     organization: "Dutch Bros Coffee",
-    location: "Fresno, CA & Grants Pass, OR",
+    location: "Hybrid Remote: Fresno, CA & Grants Pass, OR",
     description: "Worked with development team to harden internal admin Portal",
     responsibilities: [
       "Rapidly triage and write bug/enhancement tickets for quick resolution",
@@ -19,7 +19,7 @@ const experience = [
     end_date: new Date("May 2023"),
     title: "Apprentice Lead (Manager)",
     organization: "AlphaWorks/Bitwise",
-    location: "Fresno, CA",
+    location: "Hybrid Remote: Fresno, CA",
     description:
       "Trained 36 apprentices across 3 apprenticeships in React/React-Native.",
     responsibilities: [
@@ -53,7 +53,7 @@ const experience = [
     end_date: new Date("August 2021"),
     title: "Front End Web Developer",
     organization: "Content.ad",
-    location: "Irvine, CA",
+    location: "Hybrid Remote: Irvine, CA",
     description:
       "Helped build/maintain digital ad network serving 1 billion+ impressions/day.",
     responsibilities: [
@@ -113,10 +113,10 @@ const experience = [
     slug: "yamaha",
     start_date: new Date("June 2009"),
     end_date: new Date("December 2012"),
-    title: "Front End Web Developer Lead",
+    title: "Front End Web Developer Onsite Lead",
     organization: "Yamaha Corporation of America",
     ortanization_nickname: "Yamaha",
-    location: "Buena Park, CA",
+    location: "Buena Park, CA (Onsite) & Mumbai, India (Remote)",
     description: [
       "Developed promo sites using ",
       <strong>HTML/CSS/jQuery</strong>,

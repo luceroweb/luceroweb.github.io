@@ -22,7 +22,8 @@ const Contact = () => {
       <Col>
         <h1 className="fs-4">Contact Juan Lucero, Senior Web Developer</h1>
         <p>
-          <i className="bi bi-geo-alt-fill"></i> Located in: Fresno, CA
+          <i className="bi bi-geo-alt-fill"></i> Located in: Fresno, CA{" "}
+          <span className="text-secondary">(Remote/Hybrid)</span>
         </p>
 
         {isSent ? (
