@@ -114,6 +114,10 @@ const skills = {
         title: "Vue JS",
         shortTitle: "Vue",
       },
+      wpthemes: {
+        title: "WordPress Themes",
+        shortTitle: "WP Themes",
+      },
     },
   },
   backend: {
@@ -150,6 +154,10 @@ const skills = {
       },
       apis: {
         title: "APIs",
+      },
+      wpplugin: {
+        title: "WordPress Plugin",
+        shortTitle: "WP Plugin",
       },
     },
   },
@@ -196,6 +204,18 @@ const skills = {
     title: "User Experience/User Interface",
     shortTitle: "UX/UI",
     values: {
+      wordpress: {
+        title: "WordPress CMS",
+        shortTitle: "WordPress",
+      },
+      joomla: {
+        title: "Joomla CMS",
+        shortTitle: "Joomla",
+      },
+      tridion: {
+        title: "Tridion CMS",
+        shortTitle: "Tridion",
+      },
       photoshop: {
         title: "Adobe Photoshop",
         shortTitle: "Photoshop",
