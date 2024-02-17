@@ -34,8 +34,23 @@ const techStacks = {
         skills.javascript.values.jquery,
       ],
     },
+    djangoVue: {
+      title: "Django/Vue Stack",
+      shortTitle: "Django/Vue",
+      class: "group2",
+      technologies: [
+        skills.backend.values.sql,
+        skills.backend.values.python,
+        skills.frontend.values.django,
+        skills.frontend.values.vue,
+        skills.fundamentals.values.bootstrap,
+        skills.javascript.values.javascript,
+        skills.fundamentals.values.html,
+        skills.uiux.values.css,
+      ],
+    },
     dotnet: {
-      title: ".NET",
+      title: ".NET Front End",
       class: "group2",
       technologies: [
         skills.backend.sql,

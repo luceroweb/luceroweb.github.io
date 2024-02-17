@@ -9,12 +9,30 @@ const skills = {
         title: "Apprentice Lead",
         shortTitle: "Lead",
       },
+      techLead: {
+        title: "Technical Lead",
+        shortTitle: "Tech Lead",
+      },
+      devLead: {
+        title: "Development Lead",
+        shortTitle: "Dev Lead",
+      },
       agile: {
         title: "Agile Methodologies",
         shortTitle: "Agile",
       },
       scrumMaster: {
         title: "Scrum Master",
+      },
+      triage: {
+        title: "Triage",
+      },
+      prioritization: {
+        title: "Prioritization",
+      },
+      userStories: {
+        title: "User Story Development",
+        shortTitle: "User Stories",
       },
     },
   },
@@ -41,6 +59,10 @@ const skills = {
       },
       bootstrap: {
         title: "Bootstrap",
+      },
+      docs: {
+        title: "Documentation Writing",
+        shortTitle: "Doc Writing",
       },
     },
   },
@@ -85,6 +107,13 @@ const skills = {
       handlebars: {
         title: "Handlebars",
       },
+      django: {
+        title: "Django",
+      },
+      vue: {
+        title: "Vue JS",
+        shortTitle: "Vue",
+      },
     },
   },
   backend: {
@@ -105,6 +134,9 @@ const skills = {
       },
       php: {
         title: "PHP",
+      },
+      python: {
+        title: "Python",
       },
       mongo: {
         title: "Mongo DB",
@@ -175,6 +207,9 @@ const skills = {
         title: "Web Accessibility",
         shortTitle: "Accessibility",
       },
+      usability: {
+        title: "Usability",
+      },
       responsiveness: {
         title: "Mobile/Web Responsiveness",
         shortTitle: "Responsive",
@@ -205,11 +240,19 @@ const skills = {
       visualstudio: {
         title: "Visual Studio",
       },
-      notepadd: {
+      dreamweaver: {
+        title: "Dreamweaver",
+        deprecated: true,
+      },
+      notepad: {
         title: "Notepad++",
+        deprecated: true,
       },
       git: {
         title: "git",
+      },
+      gitLab: {
+        title: "GitLab",
       },
       github: {
         title: "GitHub",
@@ -220,6 +263,9 @@ const skills = {
       codecommit: {
         title: "AWS Code Commit",
         shortTitle: "Code Commit",
+      },
+      svn: {
+        title: "SVN",
       },
     },
   },
