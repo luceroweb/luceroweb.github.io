@@ -21,10 +21,11 @@ const techStacks = {
       ],
     },
     lamp: {
-      title: "WordPress LAMP Stack",
+      title: "LAMP Stack",
       shortTitle: "LAMP",
       class: "group2",
       technologies: [
+        skills.frontend.values.wordpress,
         skills.backend.values.php,
         skills.backend.values.mysql,
         skills.fundamentals.values.html,
@@ -32,30 +33,33 @@ const techStacks = {
         skills.fundamentals.values.bootstrap,
         skills.javascript.values.javascript,
         skills.javascript.values.jquery,
+        skills.frontend.values.joomla,
       ],
     },
+    djangovue: {
+      title: "Django/Vue Stack",
+      shortTitle: "Django/Vue",
+      class: "group2",
+      technologies: [
+        skills.backend.values.mysql,
+        skills.fundamentals.values.html,
+        skills.uiux.values.css,
+        skills.fundamentals.values.bootstrap,
+        skills.javascript.values.javascript,
+        skills.javascript.values.jquery,
+      ]
+    }
     dotnet: {
-      title: ".NET",
+      title: ".NET Front End",
       class: "group2",
       technologies: [
         skills.backend.sql,
         skills.fundamentals.html,
         skills.uiux.css,
+        skills.fundamentals.values.bootstrap,
         skills.javascript.javascript,
         skills.javascript.jquery,
-      ],
-    },
-    joomla: {
-      title: "Joomla CMS",
-      shortTitle: "Joomla",
-      class: "group2",
-      deprecated: true,
-      technologies: [
-        skills.backend.php,
-        skills.backend.sql,
-        skills.fundamentals.html,
-        skills.fundamentals.css,
-        skills.javascript.values.jquery,
+        skills.frontend.values.tridion,
       ],
     },
   },
