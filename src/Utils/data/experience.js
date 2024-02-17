@@ -1,5 +1,6 @@
 import skills from "./skills";
 import techStacks from "./techStacks";
+import projects from "./projects";
 
 const experience = [
   {
@@ -118,6 +119,11 @@ const experience = [
         <strong>debugging</strong>,
       ],
     ],
+    projects: [
+      projects.find((project) => project.slug === "karotsavingsmart"),
+      projects.find((project) => project.slug === "triviachill"),
+      projects.find((project) => project.slug === "hauntedhousegame"),
+    ],
   },
   {
     slug: "content-ad",
@@ -182,6 +188,10 @@ const experience = [
         " ad layouts & animations",
       ],
       "Maintained high traffic WP sites plus primary marketing site & WP Plugin",
+    ],
+    projects: [
+      projects.find((project) => project.slug === "wordpressplugin"),
+      projects.find((project) => project.slug === "javascriptadwidgets"),
     ],
   },
   {
@@ -291,6 +301,10 @@ const experience = [
         <strong>manage dev team in India</strong>,
       ],
     ],
+    projects: [
+      projects.find((project) => project.slug === "remotelive"),
+      projects.find((project) => project.slug === "aventage"),
+    ],
   },
   {
     slug: "edesign",
@@ -331,6 +345,9 @@ const experience = [
         <strong>PHP/MySQL/HTML/CSS/jQuery</strong>,
       ],
       "Trained clients remotely on use of WordPress",
+    ],
+    projects: [
+      projects.find((project) => project.slug === "unitedsecuritybank"),
     ],
   },
   {
@@ -418,6 +435,12 @@ const experience = [
         " phone directory, class requirements site",
       ],
     ],
+    projects: [
+      projects.find(
+        (project) => project.slug === "straightadvocatesforequality"
+      ),
+      projects.find((project) => project.slug === "meetinthemiddle4equality"),
+    ],
   },
   {
     slug: "csufresno",
@@ -455,6 +478,7 @@ const experience = [
       ],
       "Trained students/faculty/administrators on policy, templates, and guidelines",
     ],
+    projects: [projects.find((project) => project.slug === "smittcamp")],
   },
 ];
 

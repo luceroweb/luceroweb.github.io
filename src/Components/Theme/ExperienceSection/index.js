@@ -1,8 +1,8 @@
 import TechBadge from "../TechBadge";
+import ProjectCard from "../ProjectCard";
 
 const ExperienceSection = ({ job }) => {
   const techStack = (project) => {
-    console.log("stack", project?.stack);
     const stack = project?.shortStack ? project.shortStack : project.stack;
     return stack.map((badge, index) => (
       <TechBadge
@@ -34,6 +34,15 @@ const ExperienceSection = ({ job }) => {
           ))}
         </ul>
       </div>
+      {job?.projects && (
+        <div className="row">
+          {job.projects.map((project, index) => (
+            <div className="mb-5 d-flex justify-content-center col">
+              <ProjectCard key={index} project={project} />
+            </div>
+          ))}
+        </div>
+      )}
     </>
   );
 };
