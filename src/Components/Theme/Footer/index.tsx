@@ -8,7 +8,7 @@ const Footer = () => {
       <Row>
         <Col>
           <Nav className="justify-content-center" activeKey="/home">
-            <Nav.Item>
+            <Nav.Item className="d-none d-sm-inline-block">
               <Nav.Link eventKey="disabled" disabled>
                 <i className="bi bi-geo-alt-fill"></i> Fresno, CA{" "}
                 <span className="text-secondary">(Remote/Hybrid)</span>
