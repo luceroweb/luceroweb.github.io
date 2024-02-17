@@ -148,7 +148,7 @@ const projects = [
     slug: "unitedsecuritybank",
     stack: [
       techStacks.values.lamp,
-      skills.frontend.values.joomla,
+      skills.uiux.values.joomla,
       skills.backend.values.php,
       skills.backend.values.sql,
       skills.fundamentals.values.html,
@@ -162,8 +162,8 @@ const projects = [
     parent: "lucerowebdesign",
     slug: "straightadvocatesforequality",
     stack: [
-      techStacks.values.joomla,
       techStacks.values.lamp,
+      skills.uiux.values.joomla,
       skills.backend.values.php,
       skills.backend.values.mysql,
       skills.fundamentals.values.html,
@@ -183,8 +183,8 @@ const projects = [
     parent: "lucerowebdesign",
     slug: "meetinthemiddle4equality",
     stack: [
-      techStacks.values.joomla,
       techStacks.values.lamp,
+      skills.uiux.values.joomla,
       skills.uiux.values.flash,
       skills.backend.values.php,
       skills.backend.values.sql,

@@ -146,6 +146,8 @@ const experience = [
       techStacks.values.mern,
       techStacks.values.lamp,
       techStacks.values.dotnet,
+      skills.frontend.values.wpthemes,
+      skills.backend.values.wpplugin,
       skills.backend.values.php,
       skills.backend.values.sql,
       skills.backend.values.mysql,
@@ -307,6 +309,7 @@ const experience = [
       skills.fundamentals.values.html,
       skills.fundamentals.values.css,
       skills.javascript.values.jquery,
+      skills.frontend.values.wpthemes,
       skills.uiux.values.photoshop,
       skills.uiux.values.crossbrowser,
       skills.uiux.values.accessibility,
@@ -316,8 +319,8 @@ const experience = [
     ],
     shortStack: [
       techStacks.values.lamp,
+      skills.frontend.values.wpthemes,
       skills.operatingSystems.values.macos,
-      skills.uiux.values.photoshop,
       skills.uiux.values.crossbrowser,
     ],
     responsibilities: [
@@ -348,6 +351,8 @@ const experience = [
       skills.operatingSystems.values.windows,
       skills.uiux.values.flash,
       skills.devTools.values.dreamweaver,
+      techStacks.values.lamp,
+      skills.frontend.values.wpthemes,
     ],
     shortStack: [
       skills.javascript.values.jquery,
@@ -384,6 +389,7 @@ const experience = [
       skills.management.values.triage,
       skills.management.values.prioritization,
       techStacks.values.lamp,
+      skills.frontend.values.wpthemes,
       skills.backend.values.mysql,
       skills.backend.values.php,
       skills.fundamentals.values.docs,
