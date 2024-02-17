@@ -29,20 +29,31 @@ const Skills = () => {
               <Badge className="group6">MongoDB</Badge>{" "}
               <Badge className="group6">Express</Badge>{" "}
               <Badge className="group5">React</Badge>{" "}
-              <Badge className="group5">React-Native</Badge>
+              <Badge className="group5">React-Native</Badge>{" "}
               <Badge className="group6">node</Badge>{" "}
               <Badge className="group3">HTML</Badge>{" "}
               <Badge className="group5">Handlebars</Badge>{" "}
               <Badge className="group4">JavaScript</Badge>{" "}
             </Card.Text>
             <Card.Text>
-              <Badge className="group2">WordPress</Badge>:{" "}
+              <Badge className="group2">WordPress/LAMP Stack</Badge>:{" "}
               <Badge className="group6">PHP</Badge>{" "}
               <Badge className="group6">MySQL</Badge>{" "}
               <Badge className="group3">HTML</Badge>{" "}
               <Badge className="group3">Bootstrap</Badge>{" "}
               <Badge className="group4">JavaScript</Badge>{" "}
               <Badge className="group4">jQuery</Badge>{" "}
+            </Card.Text>
+            <Card.Text>
+              <Badge className="group2">Django/Vue Stack</Badge>:{" "}
+              <Badge className="group6">SQL</Badge>{" "}
+              <Badge className="group6">Python</Badge>{" "}
+              <Badge className="group5">Django</Badge>{" "}
+              <Badge className="group5">Vue</Badge>{" "}
+              <Badge className="group3">Bootstrap</Badge>{" "}
+              <Badge className="group3">HTML</Badge>{" "}
+              <Badge className="group4">JavaScript</Badge>{" "}
+              <Badge className="group3">HTML</Badge>{" "}
             </Card.Text>
             <Card.Text>
               <Badge className="group2">.Net Front End</Badge>:{" "}
