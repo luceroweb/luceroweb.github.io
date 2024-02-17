@@ -1,6 +1,8 @@
 import React from "react";
 import { Row, Col, Button, Card, Badge } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { experience, projects } from "../../Utils/data";
+import ExperienceSection from "../Theme/ExperienceSection";
 import face from "./face.jpg";
 import jswidgets from "../Portfolio/ContentAdWidgets/mobileslideup.jpeg";
 import wpplugin from "../Portfolio/ContentAdWordPressPlugin/screenshot-1.png";
@@ -15,6 +17,13 @@ import triviachill from "../Portfolio/Trivia&Chill/tc0title.png";
 import hauntedhouse from "../Portfolio/HauntedHouse/hh1intro.png";
 
 const Home = () => {
+  const jobList = experience.map((job) => (
+    <section aria-labelledby={job.slug} key={job.slug}>
+      <ExperienceSection job={job} />
+      {/* {workProjects(job)} */}
+    </section>
+  ));
+
   return (
     <Row>
       <Col sm={6} md={4} className="mb-3 mb-md-0 text-center">
@@ -57,6 +66,8 @@ const Home = () => {
         </div>
       </Col>
       <Col className="timeline mt-3">
+        {jobList}
+
         <section aria-labelledby="dutchbros">
           <h2 id="dutchbros">2023 – 2023</h2>
           <div>
