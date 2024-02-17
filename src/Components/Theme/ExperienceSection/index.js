@@ -1,7 +1,7 @@
 import TechBadge from "../TechBadge";
 import ProjectCard from "../ProjectCard";
 
-const ExperienceSection = ({ job }) => {
+const ExperienceSection = ({ job, showProjects = true }) => {
   const techStack = (project) => {
     const stack = project?.shortStack ? project.shortStack : project.stack;
     return stack.map((badge, index) => (
@@ -34,7 +34,7 @@ const ExperienceSection = ({ job }) => {
           ))}
         </ul>
       </div>
-      {job?.projects && (
+      {job?.projects && showProjects && (
         <div className="row">
           {job.projects.map((project, index) => (
             <div className="mb-5 d-flex justify-content-center col">

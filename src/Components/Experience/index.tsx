@@ -6,7 +6,7 @@ import ExperienceSection from "../Theme/ExperienceSection";
 const Experience = () => {
   const jobList = experience.map((job) => (
     <section aria-labelledby={job.slug} key={job.slug}>
-      <ExperienceSection job={job} />
+      <ExperienceSection job={job} showProjects={false} />
     </section>
   ));
   return (
