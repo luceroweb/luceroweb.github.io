@@ -3,7 +3,7 @@ import { Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { experience } from "../../Utils/data";
 import ExperienceSection from "../Theme/ExperienceSection";
-import face from "./face.jpg";
+import face from "./juan_face_2023.jpg";
 
 const Home = () => {
   const jobList = experience.map((job) => (

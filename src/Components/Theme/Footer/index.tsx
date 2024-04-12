@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className=" position-fixed bottom-0 left-0 w-100 w-100 bg-light">
+    <footer className=" position-fixed bottom-0 left-0 w-100 w-100 bg-dark">
       <Row>
         <Col>
           <Nav className="justify-content-center" activeKey="/home">

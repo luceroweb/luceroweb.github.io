@@ -24,7 +24,7 @@ import SAFE from "./Components/Portfolio/StraightAdvocatesForEquality";
 function App() {
   return (
     <>
-      <Container>
+      <Container className="text-white">
         <Header />
         <main>
           <Routes>
