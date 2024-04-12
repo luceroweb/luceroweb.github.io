@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f378409.css",
-    "main.js": "/static/js/main.30944ab0.js",
+    "main.css": "/static/css/main.910bf04b.css",
+    "main.js": "/static/js/main.3767721a.js",
     "static/js/787.34a870fa.chunk.js": "/static/js/787.34a870fa.chunk.js",
+    "static/media/juan_face_2023.jpg": "/static/media/juan_face_2023.e358ef7d5eb424114d64.jpg",
     "static/media/tc1start.png": "/static/media/tc1start.aa4f7a882d70ecc247d5.png",
     "static/media/tc3trailer.png": "/static/media/tc3trailer.fb41a4c32d65b28c99aa.png",
     "static/media/adlayout.gif": "/static/media/adlayout.76efe016cb76b664b838.gif",
@@ -45,18 +46,18 @@
     "static/media/aventage_thumb.jpg": "/static/media/aventage_thumb.cc704c019f5b00751de8.jpg",
     "static/media/remotelive2.jpg": "/static/media/remotelive2.942f4d17199c74d3600b.jpg",
     "static/media/screenshot-1.png": "/static/media/screenshot-1.869a06ee1269db90fa60.png",
+    "static/media/milky-way-scroll.jpg": "/static/media/milky-way-scroll.bdbdf15f9bb19859aabc.jpg",
     "static/media/usb_thumb.jpg": "/static/media/usb_thumb.5a1cf0c564ed066a136a.jpg",
     "static/media/smittcamp_thumb.jpg": "/static/media/smittcamp_thumb.95730cb9ac63674606ad.jpg",
-    "static/media/face.jpg": "/static/media/face.a04258c4dc4f0306c486.jpg",
     "static/media/screenshot-3.png": "/static/media/screenshot-3.a4487b4ed7a414450aa9.png",
     "static/media/techStacks.tx": "/static/media/techStacks.8726018e68af7b61a2b4.tx",
     "index.html": "/index.html",
-    "main.3f378409.css.map": "/static/css/main.3f378409.css.map",
-    "main.30944ab0.js.map": "/static/js/main.30944ab0.js.map",
+    "main.910bf04b.css.map": "/static/css/main.910bf04b.css.map",
+    "main.3767721a.js.map": "/static/js/main.3767721a.js.map",
     "787.34a870fa.chunk.js.map": "/static/js/787.34a870fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f378409.css",
-    "static/js/main.30944ab0.js"
+    "static/css/main.910bf04b.css",
+    "static/js/main.3767721a.js"
   ]
 }
