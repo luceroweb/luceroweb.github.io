@@ -132,6 +132,12 @@ header strong {
 .card {
   width: 19rem;
   max-width: 100%;
+  background-color: rgba(var(--white), 0.2);
+  border-color: rgb(var(--white));
+}
+
+.card-footer {
+  border-top-color: rgba(var(--white), 1);
 }
 
 /* badge colors */
