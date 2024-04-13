@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.910bf04b.css",
+    "main.css": "/static/css/main.87f9c6ad.css",
     "main.js": "/static/js/main.3767721a.js",
     "static/js/787.34a870fa.chunk.js": "/static/js/787.34a870fa.chunk.js",
     "static/media/juan_face_2023.jpg": "/static/media/juan_face_2023.e358ef7d5eb424114d64.jpg",
@@ -52,12 +52,12 @@
     "static/media/screenshot-3.png": "/static/media/screenshot-3.a4487b4ed7a414450aa9.png",
     "static/media/techStacks.tx": "/static/media/techStacks.8726018e68af7b61a2b4.tx",
     "index.html": "/index.html",
-    "main.910bf04b.css.map": "/static/css/main.910bf04b.css.map",
+    "main.87f9c6ad.css.map": "/static/css/main.87f9c6ad.css.map",
     "main.3767721a.js.map": "/static/js/main.3767721a.js.map",
     "787.34a870fa.chunk.js.map": "/static/js/787.34a870fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.910bf04b.css",
+    "static/css/main.87f9c6ad.css",
     "static/js/main.3767721a.js"
   ]
 }
